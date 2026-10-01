@@ -1,0 +1,96 @@
+{
+  "role": "ui-ux-designer",
+  "role_title": "UI/UX Designer",
+  "role_summary": "Designs how products look, feel and flow: user research, wireframes, prototypes, visual and interaction design, and design systems.",
+  "core_skills": [
+    "Figma",
+    "Prototyping",
+    "Wireframing",
+    "User Research",
+    "Visual Design",
+    "Interaction Design",
+    "Design Systems",
+    "Usability Testing",
+    "Information Architecture",
+    "Communication"
+  ],
+  "postings": [
+    {
+      "id": "ui-ux-designer-01",
+      "title": "Early Career, Product Designer",
+      "company": "Figma",
+      "location": "San Francisco, CA / New York, NY, USA",
+      "work_type": "Hybrid",
+      "level": "Entry level",
+      "experience": "Early career",
+      "summary": "Early-career product designer owning features end to end, from flows and prototypes to high-fidelity visuals, alongside engineering.",
+      "required_skills": [
+        "Visual Design",
+        "Interaction Design",
+        "Prototyping",
+        "Design Systems",
+        "Figma"
+      ],
+      "preferred_skills": [
+        "Information Architecture",
+        "HTML",
+        "CSS"
+      ],
+      "responsibilities": [
+        "Own feature design from start to finish",
+        "Identify user and business needs with product and research",
+        "Create flows, prototypes and high-fidelity visuals",
+        "Work with engineering on high-quality implementation"
+      ],
+      "requirements": [
+        "Demonstrated visual and/or interaction design skill",
+        "Experience shipping projects with strong product thinking",
+        "Ability to express ideas through prototypes or code",
+        "Interest in design tools and design systems"
+      ],
+      "source_name": "Figma careers (Greenhouse job board)",
+      "source_url": "https://boards.greenhouse.io/figma/jobs/6180053004",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "ui-ux-designer-02",
+      "title": "Product Designer",
+      "company": "Asana",
+      "location": "San Francisco, CA, USA",
+      "work_type": "Hybrid",
+      "level": "Senior",
+      "experience": "5+ years",
+      "summary": "Product designer focused on onboarding and adoption, prototyping rapidly and using research and data to shape AI-powered product experiences.",
+      "required_skills": [
+        "Prototyping",
+        "Visual Design",
+        "Interaction Design",
+        "User Research",
+        "Design Systems",
+        "Collaboration"
+      ],
+      "preferred_skills": [
+        "Experimentation",
+        "LLM Integration",
+        "Figma"
+      ],
+      "responsibilities": [
+        "Design onboarding and adoption experiences",
+        "Rapidly prototype concepts and interactions",
+        "Use research, experiments and data to guide decisions",
+        "Contribute to the design system and interaction patterns"
+      ],
+      "requirements": [
+        "5+ years in product design with a strong portfolio",
+        "Strong prototyping skills",
+        "Exceptional visual and interaction craft",
+        "Curiosity about AI products and interaction patterns"
+      ],
+      "source_name": "Asana careers (Greenhouse job board)",
+      "source_url": "https://www.asana.com/jobs/apply/7952123",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

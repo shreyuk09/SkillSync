@@ -1,0 +1,90 @@
+{
+  "id": "resume-02",
+  "name": "Meera Iyer",
+  "headline": "Full Stack Developer (React + Node.js)",
+  "target_role": "full-stack-developer",
+  "location": "Bengaluru, India",
+  "email": "meera.iyer@example.com",
+  "years_experience": 3,
+  "summary": "Full stack developer who builds React front ends and Node.js APIs. Has shipped customer-facing features end to end, from database schema to UI.",
+  "education": [
+    {
+      "degree": "B.Tech Information Technology",
+      "institution": "Kaveri Valley University",
+      "start": "2017",
+      "end": "2021",
+      "grade": "8.4 CGPA"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "Cartwheel Commerce (fictional)",
+      "location": "Bengaluru",
+      "start": "2021-08",
+      "end": "Present",
+      "bullets": [
+        "Built a React + TypeScript checkout flow that lifted completed orders by 12% in A/B testing.",
+        "Designed Node.js/Express REST APIs backed by PostgreSQL for orders and refunds.",
+        "Added Jest and React Testing Library tests to the checkout package (coverage 20% → 65%).",
+        "Moved image assets to a CDN, reducing page weight by 40%.",
+        "Mentored two interns through their first production releases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Team Kanban Board",
+      "tech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "description": "Real-time task board with drag-and-drop, roles and activity history."
+    },
+    {
+      "name": "Expense Splitter",
+      "tech": [
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "description": "Group expense tracking app with settle-up suggestions."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Git",
+      "Frontend Testing",
+      "Docker"
+    ],
+    "soft": [
+      "Collaboration",
+      "Mentoring",
+      "Communication",
+      "Problem Solving"
+    ]
+  },
+  "certifications": [],
+  "achievements": [
+    "Company hackathon winner, 2023"
+  ],
+  "interests": [
+    "Photography"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

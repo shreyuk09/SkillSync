@@ -1,0 +1,101 @@
+{
+  "role": "full-stack-developer",
+  "role_title": "Full Stack Developer",
+  "role_summary": "Works across the frontend and backend: builds user interfaces, designs APIs and services, and owns features from database to browser.",
+  "core_skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "REST APIs",
+    "SQL",
+    "Git",
+    "HTML",
+    "CSS",
+    "Cloud Platforms",
+    "CI/CD"
+  ],
+  "postings": [
+    {
+      "id": "full-stack-developer-01",
+      "title": "Full Stack Engineer, Billing",
+      "company": "Stripe",
+      "location": "Not specified",
+      "work_type": "Not specified",
+      "level": "Senior",
+      "experience": "5+ years",
+      "summary": "Generalist engineer on the billing product, designing reliable APIs and backend services and leading technical projects across the stack.",
+      "required_skills": [
+        "REST APIs",
+        "Distributed Systems",
+        "Problem Solving",
+        "Collaboration",
+        "Mentoring"
+      ],
+      "preferred_skills": [
+        "Event-Driven Architecture",
+        "Billing Systems"
+      ],
+      "responsibilities": [
+        "Scope and lead projects that scale backend systems and APIs",
+        "Design and maintain high-performance services",
+        "Own reliability targets and debug production issues across the stack",
+        "Mentor engineers and partner with product managers"
+      ],
+      "requirements": [
+        "5+ years of industry engineering experience (excluding internships)",
+        "Strong coding skills in any language",
+        "Project leadership and mentoring experience",
+        "Comfort working as a generalist across stacks"
+      ],
+      "source_name": "Stripe jobs (Greenhouse job board)",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=6786324",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "full-stack-developer-02",
+      "title": "Senior Software Engineer – Fullstack",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "work_type": "Not specified",
+      "level": "Senior",
+      "experience": "5+ years",
+      "summary": "Senior full-stack role on an automation team: event-driven integrations on AWS in Java and Python, plus React/TypeScript developer portals and dashboards.",
+      "required_skills": [
+        "Java",
+        "Python",
+        "React",
+        "TypeScript",
+        "Next.js",
+        "AWS",
+        "Event-Driven Architecture",
+        "REST APIs",
+        "Terraform",
+        "CI/CD"
+      ],
+      "preferred_skills": [
+        "GraphQL",
+        "Observability",
+        "LLM Integration",
+        "AI Coding Tools"
+      ],
+      "responsibilities": [
+        "Lead design of automation initiatives and reusable integration frameworks",
+        "Build event-driven integration flows, API gateways and async workflows on AWS",
+        "Build developer portals and dashboards with modern frontend frameworks",
+        "Strengthen monitoring, audit logging and governance with platform teams"
+      ],
+      "requirements": [
+        "5+ years of engineering in Java and Python on backend or platform systems",
+        "2+ years with React, Next.js and TypeScript",
+        "Deep AWS and event-driven architecture experience",
+        "Infrastructure as code, CI/CD and API contract design (REST/GraphQL)"
+      ],
+      "source_name": "Okta careers (Greenhouse job board)",
+      "source_url": "https://www.okta.com/company/careers/opportunity/8203481",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

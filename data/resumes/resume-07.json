@@ -1,0 +1,95 @@
+{
+  "id": "resume-07",
+  "name": "Vikram Nair",
+  "headline": "Data Scientist",
+  "target_role": "data-scientist",
+  "location": "Mumbai, India",
+  "email": "vikram.nair@example.com",
+  "years_experience": 2,
+  "summary": "Data scientist who turns business questions into models and dashboards. Experienced with Python, SQL and classical machine learning.",
+  "education": [
+    {
+      "degree": "M.Sc. Statistics",
+      "institution": "Konkan University",
+      "start": "2019",
+      "end": "2021",
+      "grade": "First class"
+    },
+    {
+      "degree": "B.Sc. Mathematics",
+      "institution": "Konkan University",
+      "start": "2016",
+      "end": "2019"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Mosaic Retail Analytics (fictional)",
+      "location": "Mumbai",
+      "start": "2021-08",
+      "end": "Present",
+      "bullets": [
+        "Built a churn prediction model (gradient boosting) that helped target retention offers, saving an estimated ₹1.2 crore a year.",
+        "Designed and analysed A/B tests for pricing pages.",
+        "Built Tableau dashboards used weekly by the category leadership team.",
+        "Worked with data."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Demand Forecasting",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "description": "Weekly SKU demand forecasting with feature engineering and backtesting."
+    },
+    {
+      "name": "Resume Q&A Bot",
+      "tech": [
+        "Python",
+        "LLM",
+        "FAISS"
+      ],
+      "description": "Small retrieval-augmented chatbot over PDF documents."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Machine Learning",
+      "Statistics",
+      "SQL",
+      "Experimentation",
+      "Tableau",
+      "Data Visualization",
+      "Git",
+      "LLM Integration"
+    ],
+    "soft": [
+      "Communication",
+      "Stakeholder Management",
+      "Critical Thinking"
+    ]
+  },
+  "certifications": [
+    "Google Data Analytics Certificate"
+  ],
+  "achievements": [
+    "Published a Kaggle notebook with 300+ upvotes"
+  ],
+  "interests": [
+    "Cricket statistics"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

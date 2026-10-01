@@ -1,0 +1,107 @@
+{
+  "role": "devops-engineer",
+  "role_title": "DevOps Engineer",
+  "role_summary": "Automates how software is built, shipped and run: CI/CD pipelines, containers, Kubernetes, infrastructure as code, monitoring and incident response.",
+  "core_skills": [
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Terraform",
+    "Linux",
+    "AWS",
+    "Python",
+    "Go",
+    "Observability",
+    "Git",
+    "Shell Scripting"
+  ],
+  "postings": [
+    {
+      "id": "devops-engineer-01",
+      "title": "DevOps Engineer (Observability)",
+      "company": "Twilio",
+      "location": "Ireland",
+      "work_type": "Remote",
+      "level": "Senior",
+      "experience": "Experienced",
+      "summary": "Platform engineer leading observability systems (logs, metrics, traces and profiling) for a microservice environment on AWS and Kubernetes.",
+      "required_skills": [
+        "Observability",
+        "OpenTelemetry",
+        "Prometheus",
+        "Distributed Systems",
+        "AWS",
+        "Kubernetes",
+        "Infrastructure as Code",
+        "Python",
+        "Go"
+      ],
+      "preferred_skills": [
+        "Kafka",
+        "ClickHouse",
+        "Java",
+        "Incident Response"
+      ],
+      "responsibilities": [
+        "Lead architecture and delivery of observability platform components",
+        "Unify logs, metrics, traces and profiling into clear workflows",
+        "Build tooling and APIs for incident response and debugging",
+        "Advise and mentor teams across the platform organisation"
+      ],
+      "requirements": [
+        "Proven experience building observability systems at scale",
+        "Proficiency in Go, Python or Java",
+        "Experience with telemetry tools such as Prometheus, OpenTelemetry or Kafka",
+        "AWS, Kubernetes and infrastructure-as-code experience"
+      ],
+      "source_name": "Twilio careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "devops-engineer-02",
+      "title": "Senior Site Reliability Engineer (CI/CD & Delivery)",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "work_type": "Hybrid",
+      "level": "Senior",
+      "experience": "Experienced",
+      "summary": "SRE on the delivery team running large-scale cloud services: Kubernetes, Terraform, CI/CD and GitOps, SLOs, incident response and automation.",
+      "required_skills": [
+        "Kubernetes",
+        "Terraform",
+        "Helm",
+        "CI/CD",
+        "GitOps",
+        "AWS",
+        "GCP",
+        "Go",
+        "Python",
+        "SLOs",
+        "Incident Response",
+        "Observability"
+      ],
+      "preferred_skills": [
+        "Linux",
+        "Networking"
+      ],
+      "responsibilities": [
+        "Design, build and operate large-scale cloud services",
+        "Lead incident response and post-incident reviews",
+        "Define and improve SLIs, SLOs and error budgets",
+        "Automate toil and improve deployment safety with CI/CD and GitOps"
+      ],
+      "requirements": [
+        "Operating large-scale production services on AWS and/or GCP",
+        "Deep production Kubernetes experience, including troubleshooting",
+        "Extensive Terraform and Helm experience",
+        "Software development in Go or Python"
+      ],
+      "source_name": "Okta careers (Greenhouse job board)",
+      "source_url": "https://www.okta.com/company/careers/opportunity/8078730",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

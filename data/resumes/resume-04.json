@@ -1,0 +1,91 @@
+{
+  "id": "resume-04",
+  "name": "Nisha Rao",
+  "headline": "Cloud Engineer (AWS)",
+  "target_role": "cloud-engineer",
+  "location": "Hyderabad, India",
+  "email": "nisha.rao@example.com",
+  "years_experience": 3,
+  "summary": "Cloud engineer who runs production workloads on AWS. Automates infrastructure with Terraform and cares about cost and security.",
+  "education": [
+    {
+      "degree": "B.Tech Electronics and Communication",
+      "institution": "Deccan Institute of Engineering",
+      "start": "2016",
+      "end": "2020",
+      "grade": "7.6 CGPA"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Cloud Engineer",
+      "company": "Stratos Health Systems (fictional)",
+      "location": "Hyderabad",
+      "start": "2021-03",
+      "end": "Present",
+      "bullets": [
+        "Migrated 14 on-premise services to AWS (EC2, RDS, S3) with zero unplanned downtime.",
+        "Wrote Terraform modules for VPCs, IAM roles and Auto Scaling groups reused by 5 teams.",
+        "Reduced monthly AWS spend by 22% through rightsizing and reserved instances.",
+        "Set up CloudWatch alarms and dashboards for critical services."
+      ]
+    },
+    {
+      "title": "Systems Administrator",
+      "company": "Lotus IT Services (fictional)",
+      "location": "Hyderabad",
+      "start": "2020-07",
+      "end": "2021-02",
+      "bullets": [
+        "Managed Linux servers and backups for 30 clients."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Serverless URL Shortener",
+      "tech": [
+        "AWS Lambda",
+        "DynamoDB",
+        "API Gateway",
+        "Terraform"
+      ],
+      "description": "Fully serverless URL shortener deployed with Terraform."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "AWS",
+      "EC2",
+      "IAM",
+      "Auto Scaling",
+      "Terraform",
+      "Infrastructure as Code",
+      "Linux",
+      "Networking",
+      "Python",
+      "Shell Scripting",
+      "Monitoring",
+      "Git",
+      "Docker"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Documentation",
+      "Collaboration"
+    ]
+  },
+  "certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "HashiCorp Certified: Terraform Associate"
+  ],
+  "achievements": [],
+  "interests": [
+    "Trekking"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

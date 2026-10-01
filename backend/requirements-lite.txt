@@ -1,0 +1,24 @@
+# Lightweight install: no PyTorch, no Chroma, ~30 MB instead of ~2 GB.
+#
+# The RAG pipeline is identical -- only the embedding model and the vector
+# store implementation change (hashing embedder + NumPy cosine store).
+# Great for a quick demo or a laptop that is short on disk space.
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+typing-extensions>=4.7.0
+python-dotenv>=1.0.0
+
+anthropic>=0.125.0
+
+# Groq -- open models on fast inference, generous free tier.
+# The app runs on either provider; see LLM_PROVIDER in .env.
+groq>=1.0.0
+
+pypdf>=4.2.0
+python-docx>=1.1.0
+
+numpy>=1.26.0

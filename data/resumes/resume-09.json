@@ -1,0 +1,78 @@
+{
+  "id": "resume-09",
+  "name": "Siddharth Menon",
+  "headline": "Software Engineer",
+  "target_role": "full-stack-developer",
+  "location": "Kochi, India",
+  "email": "siddharth.menon@example.com",
+  "years_experience": 3,
+  "summary": "Software engineer working across backend services and internal tools. Mostly Python and Java, with some React.",
+  "education": [
+    {
+      "degree": "B.Tech Computer Science",
+      "institution": "Malabar Institute of Technology",
+      "start": "2016",
+      "end": "2020",
+      "grade": "7.9 CGPA"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Harbourline Fintech (fictional)",
+      "location": "Kochi",
+      "start": "2020-08",
+      "end": "Present",
+      "bullets": [
+        "Built Python (FastAPI) and Java services for loan-application processing handling ~15k applications a day.",
+        "Added Redis caching and background job queues, reducing timeouts during peak hours.",
+        "Built an internal React admin tool used by the operations team.",
+        "Participated in code reviews and on-call rotation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Finance Tracker",
+      "tech": [
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "description": "Tracks spending with bank CSV import and monthly budgets."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python",
+      "Java",
+      "FastAPI",
+      "Spring Boot",
+      "React",
+      "JavaScript",
+      "PostgreSQL",
+      "Redis",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Data Structures & Algorithms",
+      "Microservices"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Collaboration",
+      "Code Review"
+    ]
+  },
+  "certifications": [],
+  "achievements": [],
+  "interests": [
+    "Badminton"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

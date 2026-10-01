@@ -1,0 +1,78 @@
+{
+  "id": "resume-08",
+  "name": "Ananya Bose",
+  "headline": "UI/UX Designer",
+  "target_role": "ui-ux-designer",
+  "location": "Kolkata, India",
+  "email": "ananya.bose@example.com",
+  "years_experience": 2,
+  "summary": "Product designer who designs mobile and web flows from research to high-fidelity prototypes.",
+  "education": [
+    {
+      "degree": "B.Des. Communication Design",
+      "institution": "Eastern School of Design",
+      "start": "2017",
+      "end": "2021"
+    }
+  ],
+  "experience": [
+    {
+      "title": "UI/UX Designer",
+      "company": "Tiffin Box Foods (fictional)",
+      "location": "Kolkata",
+      "start": "2021-07",
+      "end": "Present",
+      "bullets": [
+        "Redesigned the food-ordering app checkout; drop-off at the payment step fell by 18%.",
+        "Ran 12 moderated usability sessions and turned findings into a prioritised backlog.",
+        "Created and maintained the Figma component library used by 4 designers and 6 developers.",
+        "Made designs for the app."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clinic Booking App (case study)",
+      "tech": [
+        "Figma",
+        "Prototyping"
+      ],
+      "description": "End-to-end case study: interviews, journey map, wireframes, prototype and usability test."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Figma",
+      "Prototyping",
+      "Wireframing",
+      "User Research",
+      "Usability Testing",
+      "Visual Design",
+      "Interaction Design",
+      "Design Systems",
+      "Adobe XD",
+      "HTML",
+      "CSS"
+    ],
+    "soft": [
+      "Communication",
+      "Collaboration",
+      "Attention to Detail"
+    ]
+  },
+  "certifications": [
+    "Google UX Design Certificate"
+  ],
+  "achievements": [
+    "Dribbble shot featured in \"Popular\" (2022)"
+  ],
+  "interests": [
+    "Typography",
+    "Sketching"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

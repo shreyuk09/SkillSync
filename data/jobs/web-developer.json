@@ -1,0 +1,104 @@
+{
+  "role": "web-developer",
+  "role_title": "Web Developer",
+  "role_summary": "Builds fast, accessible web interfaces with HTML, CSS and JavaScript frameworks, working closely with designers and backend engineers.",
+  "core_skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue",
+    "Accessibility",
+    "Web Performance",
+    "Frontend Testing",
+    "Git",
+    "REST APIs"
+  ],
+  "postings": [
+    {
+      "id": "web-developer-01",
+      "title": "Senior Frontend Engineer",
+      "company": "GitLab",
+      "location": "Bengaluru, India",
+      "work_type": "Remote",
+      "level": "Senior",
+      "experience": "Experienced",
+      "summary": "Senior frontend role shipping product features independently, with strong focus on accessibility, performance, testing and frontend architecture.",
+      "required_skills": [
+        "JavaScript",
+        "Frontend Architecture",
+        "Accessibility",
+        "Web Performance",
+        "Frontend Testing",
+        "Component Design",
+        "Communication"
+      ],
+      "preferred_skills": [
+        "Vue",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "GraphQL",
+        "LLM Integration"
+      ],
+      "responsibilities": [
+        "Design and ship frontend features with minimal guidance",
+        "Turn ambiguous product needs into accessible, intuitive experiences",
+        "Improve practices for architecture, component design and testing",
+        "Diagnose frontend performance issues and mentor junior engineers"
+      ],
+      "requirements": [
+        "Frontend architecture, testing, accessibility and performance experience in a complex product",
+        "Experience with modular frontends or component systems",
+        "Clear written communication for a remote, async team",
+        "Vue, React, TypeScript or JavaScript experience is helpful"
+      ],
+      "source_name": "GitLab careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8826920002",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "web-developer-02",
+      "title": "Software Engineer, New Grad – Frontend",
+      "company": "Stripe",
+      "location": "Barcelona, Spain",
+      "work_type": "Not specified",
+      "level": "Entry level",
+      "experience": "New graduate",
+      "summary": "New-graduate frontend engineering role for candidates with programming experience from projects or coursework and a collaborative team project behind them.",
+      "required_skills": [
+        "JavaScript",
+        "Problem Solving",
+        "Communication",
+        "Collaboration",
+        "Code Review"
+      ],
+      "preferred_skills": [
+        "Java",
+        "Ruby",
+        "Scala",
+        "Go",
+        "AI Coding Tools"
+      ],
+      "responsibilities": [
+        "Build product features without clear precedent",
+        "Learn unfamiliar systems through research and mentoring",
+        "Explain work clearly to teammates and stakeholders",
+        "Use AI tools while critically reviewing their output"
+      ],
+      "requirements": [
+        "Bachelor's or Master's in computer science by 2027, or equivalent experience",
+        "Programming experience from side projects or coursework",
+        "Internship or multi-person project experience",
+        "Clear written communication"
+      ],
+      "source_name": "Stripe jobs (Greenhouse job board)",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8130927",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

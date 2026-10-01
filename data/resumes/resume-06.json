@@ -1,0 +1,84 @@
+{
+  "id": "resume-06",
+  "name": "Farah Khan",
+  "headline": "Security Analyst (SOC)",
+  "target_role": "cybersecurity-analyst",
+  "location": "Chennai, India",
+  "email": "farah.khan@example.com",
+  "years_experience": 2,
+  "summary": "SOC analyst with two years of alert triage and incident handling experience in a 24x7 security operations centre.",
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Coromandel Arts and Science College",
+      "start": "2018",
+      "end": "2021"
+    },
+    {
+      "degree": "PG Diploma in Cyber Security",
+      "institution": "Bay Institute of Information Security",
+      "start": "2021",
+      "end": "2022"
+    }
+  ],
+  "experience": [
+    {
+      "title": "SOC Analyst L1",
+      "company": "Sentinel Shield MSSP (fictional)",
+      "location": "Chennai",
+      "start": "2022-06",
+      "end": "Present",
+      "bullets": [
+        "Triaged around 120 SIEM alerts per shift in Splunk and escalated confirmed incidents.",
+        "Investigated phishing reports: header analysis, URL sandboxing and mailbox purge requests.",
+        "Tuned 15 noisy detection rules, reducing false positives by roughly 30%.",
+        "Did monitoring."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Home SOC Lab",
+      "tech": [
+        "Splunk",
+        "Sysmon",
+        "Suricata"
+      ],
+      "description": "Lab that forwards Windows and network logs to Splunk with custom detections mapped to MITRE ATT&CK."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "SIEM",
+      "Security Operations",
+      "Threat Detection",
+      "Phishing Analysis",
+      "Incident Response",
+      "IDS/IPS",
+      "Firewalls",
+      "Networking",
+      "Wireshark",
+      "Linux",
+      "Python"
+    ],
+    "soft": [
+      "Attention to Detail",
+      "Communication"
+    ]
+  },
+  "certifications": [
+    "CompTIA Security+"
+  ],
+  "achievements": [
+    "Top 10 finish in a college CTF (2021)"
+  ],
+  "interests": [
+    "CTFs",
+    "Reading"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "role": "data-scientist",
+  "role_title": "Data Scientist",
+  "role_summary": "Turns data into decisions: analysis, statistics, experimentation and machine-learning models, communicated through clear reporting and visualisation.",
+  "core_skills": [
+    "Python",
+    "SQL",
+    "Pandas",
+    "Statistics",
+    "Machine Learning",
+    "Data Visualization",
+    "Experimentation",
+    "R",
+    "Communication"
+  ],
+  "postings": [
+    {
+      "id": "data-scientist-01",
+      "title": "Data Scientist",
+      "company": "Celonis",
+      "location": "Bengaluru, India",
+      "work_type": "Hybrid",
+      "level": "Mid level",
+      "experience": "3+ years",
+      "summary": "Analytics-focused data scientist building insights and decision tools for operational processes, with regular reporting for business leaders.",
+      "required_skills": [
+        "SQL",
+        "Python",
+        "Pandas",
+        "Data Visualization",
+        "Tableau",
+        "Power BI",
+        "Communication"
+      ],
+      "preferred_skills": [
+        "Jira",
+        "Agile",
+        "Data Engineering"
+      ],
+      "responsibilities": [
+        "Build data-driven insights and decision tools for operations",
+        "Produce regular reporting and analysis for leaders",
+        "Maintain data accuracy and integrity through audits",
+        "Run in-depth investigations into business questions"
+      ],
+      "requirements": [
+        "Degree focused on Economics, Mathematics, Computer Science or Data Science",
+        "3+ years as an analytics engineer, product analyst or similar",
+        "Experience with BI tools such as Tableau, Looker or Power BI",
+        "SQL, Python and Pandas for extraction and analysis"
+      ],
+      "source_name": "Celonis careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/celonis/jobs/7886062003",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "data-scientist-02",
+      "title": "Data Scientist",
+      "company": "Stripe",
+      "location": "Seattle, WA, USA",
+      "work_type": "Not specified",
+      "level": "Senior",
+      "experience": "5+ years",
+      "summary": "Senior data scientist building and deploying models, designing production experiments and translating analysis into product strategy.",
+      "required_skills": [
+        "Python",
+        "R",
+        "Machine Learning",
+        "Experimentation",
+        "Statistics",
+        "Communication"
+      ],
+      "preferred_skills": [
+        "REST APIs",
+        "Distributed Systems"
+      ],
+      "responsibilities": [
+        "Develop and tune models that drive business outcomes, then deploy them",
+        "Design and analyse production experiments",
+        "Translate complex analysis into product decisions",
+        "Contribute to strategy, roadmap and technical design documents"
+      ],
+      "requirements": [
+        "Several years of post-degree experience",
+        "Python or R",
+        "Building and deploying models in production",
+        "Designing and analysing experiments"
+      ],
+      "source_name": "Stripe jobs (Greenhouse job board)",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8222149",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

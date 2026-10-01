@@ -1,0 +1,40 @@
+Software Developer (Backend Focus)
+Northwind Technologies | Bengaluru, India | Full-time
+
+ABOUT THE ROLE
+Northwind Technologies builds logistics software used by mid-sized shipping companies
+across Asia. We are hiring a Software Developer to join the platform team, which owns
+the services behind order tracking and route planning. You will work on production
+services from your first month, with a senior engineer as your mentor.
+
+KEY RESPONSIBILITIES
+- Design, build and maintain backend services in Java using Spring Boot.
+- Build and document REST APIs consumed by our web and mobile clients.
+- Write and maintain SQL queries and schema migrations against PostgreSQL.
+- Containerise services with Docker and help maintain our deployment pipelines.
+- Deploy and monitor services running on AWS (EC2, S3, RDS).
+- Write unit and integration tests, and take part in code review.
+- Work in two-week Agile sprints, collaborating with product and QA.
+- Debug and resolve production issues, including occasional on-call rotation.
+
+REQUIRED QUALIFICATIONS
+- Bachelor's degree in Computer Science, Information Technology or a related field.
+- 0-2 years of professional software development experience.
+- Strong programming ability in Java.
+- Solid understanding of data structures, algorithms and object oriented design.
+- Practical experience building REST APIs.
+- Working knowledge of SQL and relational databases.
+- Familiarity with Git and collaborative development workflows.
+- Experience with Docker or a strong willingness to learn containerisation quickly.
+
+PREFERRED QUALIFICATIONS
+- Exposure to AWS or another cloud provider.
+- Familiarity with Kubernetes.
+- Experience with CI/CD tools such as Jenkins or GitHub Actions.
+- Understanding of microservices architecture.
+- Contributions to open source projects.
+- Experience with message queues such as Kafka or RabbitMQ.
+
+WHAT WE OFFER
+Structured mentorship, a yearly learning budget, hybrid working, and health cover for
+you and your dependents.

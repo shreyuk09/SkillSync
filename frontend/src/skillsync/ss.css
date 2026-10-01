@@ -1,0 +1,84 @@
+/* SkillSync dashboard tokens. Same cream / green / navy family as the landing
+   page (.sync) and How It Works (.hiw), so the app feels like one product.
+   Values are RGB triplets so Tailwind's `bg-ss-card/70` alpha syntax works. */
+.ss {
+  --ss-page: 253 250 243;     /* cream page, as on the landing */
+  --ss-side: 250 247 239;
+  --ss-card: 255 255 255;
+  --ss-soft: 248 245 237;     /* inset / hover */
+  --ss-ink: 4 16 36;          /* navy ink */
+  --ss-sub: 92 96 100;
+  --ss-mute: 131 134 138;
+  --ss-line: 235 228 216;
+  --ss-green: 4 104 52;
+  --ss-green2: 41 134 85;
+  --ss-on-green: 255 255 255;
+  --ss-pill: 228 240 224;
+  --ss-pill-ink: 4 92 36;
+  /* meaning colours: green = matched, amber = improve, red = missing,
+     blue = info, purple = AI */
+  --ss-g-bg: 232 245 228;  --ss-g-ink: 22 120 58;
+  --ss-a-bg: 253 240 219;  --ss-a-ink: 168 94 8;
+  --ss-r-bg: 252 231 228;  --ss-r-ink: 190 45 35;
+  --ss-b-bg: 229 239 252;  --ss-b-ink: 36 99 196;
+  --ss-p-bg: 240 234 252;  --ss-p-ink: 110 64 201;
+  color: rgb(var(--ss-ink));
+  background: rgb(var(--ss-page));
+  font-family: 'Instrument Sans', Inter, system-ui, sans-serif;
+}
+.dark .ss {
+  --ss-page: 18 18 16;
+  --ss-side: 22 22 20;
+  --ss-card: 29 29 26;
+  --ss-soft: 37 37 33;
+  --ss-ink: 245 242 235;
+  --ss-sub: 186 182 172;
+  --ss-mute: 150 146 138;
+  --ss-line: 52 51 46;
+  --ss-green: 95 174 125;
+  --ss-green2: 116 193 145;
+  --ss-on-green: 15 20 15;
+  --ss-pill: 29 42 34;
+  --ss-pill-ink: 124 196 150;
+  --ss-g-bg: 27 48 34;   --ss-g-ink: 124 204 150;
+  --ss-a-bg: 54 40 18;   --ss-a-ink: 240 180 90;
+  --ss-r-bg: 60 28 26;   --ss-r-ink: 244 138 126;
+  --ss-b-bg: 24 38 60;   --ss-b-ink: 128 172 240;
+  --ss-p-bg: 42 32 64;   --ss-p-ink: 184 156 250;
+  color-scheme: dark;
+}
+.ss-card {
+  background: rgb(var(--ss-card));
+  border: 1px solid rgb(var(--ss-line));
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgb(4 16 36 / 0.03), 0 10px 30px -18px rgb(4 16 36 / 0.18);
+}
+.dark .ss-card { box-shadow: none; }
+.ss-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  height: 40px; padding: 0 18px; border-radius: 10px; font-weight: 600; font-size: 14px;
+  background: linear-gradient(180deg, rgb(var(--ss-green2)), rgb(var(--ss-green)));
+  color: rgb(var(--ss-on-green)); transition: filter .15s, transform .15s;
+}
+.ss-btn:hover { filter: brightness(1.06); }
+.ss-btn:active { transform: translateY(1px); }
+.ss-btn:disabled { opacity: .55; cursor: not-allowed; }
+.ss-btn2 {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  height: 40px; padding: 0 16px; border-radius: 10px; font-weight: 600; font-size: 14px;
+  background: rgb(var(--ss-card)); color: rgb(var(--ss-ink));
+  border: 1px solid rgb(var(--ss-line)); transition: background .15s;
+}
+.ss-btn2:hover { background: rgb(var(--ss-soft)); }
+.ss :focus-visible { outline: 2px solid rgb(var(--ss-green)); outline-offset: 2px; border-radius: 8px; }
+.ss-skel {
+  position: relative; overflow: hidden; border-radius: 10px; background: rgb(var(--ss-soft));
+}
+.ss-skel::after {
+  content: ''; position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgb(var(--ss-card) / 0.7), transparent);
+  animation: shimmer 1.4s infinite;
+}
+@media (prefers-reduced-motion: reduce) { .ss-skel::after { animation: none; } }
+.ss-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.ss-scroll::-webkit-scrollbar-thumb { background: rgb(var(--ss-line)); border-radius: 8px; }

@@ -1,0 +1,103 @@
+{
+  "role": "cloud-engineer",
+  "role_title": "Cloud Engineer",
+  "role_summary": "Designs, automates and operates cloud infrastructure: compute, networking, identity and deployment pipelines, usually defined as code.",
+  "core_skills": [
+    "AWS",
+    "Terraform",
+    "Infrastructure as Code",
+    "Linux",
+    "Shell Scripting",
+    "Networking",
+    "IAM",
+    "Docker",
+    "CI/CD",
+    "Python",
+    "Monitoring"
+  ],
+  "postings": [
+    {
+      "id": "cloud-engineer-01",
+      "title": "Software Engineer L2 – Cloud Infrastructure",
+      "company": "Twilio",
+      "location": "United States",
+      "work_type": "Remote",
+      "level": "Mid level",
+      "experience": "2+ years",
+      "summary": "Cloud infrastructure engineer managing AWS compute at scale, automating operations and applying infrastructure-as-code practices, with an on-call rotation.",
+      "required_skills": [
+        "AWS",
+        "EC2",
+        "IAM",
+        "Auto Scaling",
+        "Shell Scripting",
+        "Infrastructure as Code",
+        "Terraform",
+        "CI/CD",
+        "Distributed Systems"
+      ],
+      "preferred_skills": [
+        "Docker",
+        "Python",
+        "SLOs"
+      ],
+      "responsibilities": [
+        "Develop solutions for distributed infrastructure problems with architects and leads",
+        "Automate monitoring, capacity planning and disaster response",
+        "Apply infrastructure-as-code standards and write design docs and runbooks",
+        "Participate in on-call for business-critical infrastructure"
+      ],
+      "requirements": [
+        "2+ years managing AWS infrastructure (EC2, AMIs, IAM)",
+        "Strong knowledge of auto scaling groups",
+        "Shell scripting and at least one programming language",
+        "Experience with IaC and continuous deployment tooling"
+      ],
+      "source_name": "Twilio careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/twilio/jobs/7434770",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "cloud-engineer-02",
+      "title": "Specialist Solutions Architect – Cloud Infrastructure & AWS",
+      "company": "Databricks",
+      "location": "United States",
+      "work_type": "Remote",
+      "level": "Senior",
+      "experience": "6+ years",
+      "summary": "Customer-facing cloud architect guiding enterprise deployments on AWS: networking, identity, security, automation and platform operations.",
+      "required_skills": [
+        "AWS",
+        "Networking",
+        "IAM",
+        "Terraform",
+        "Infrastructure as Code",
+        "Python",
+        "SQL",
+        "Cloud Security"
+      ],
+      "preferred_skills": [
+        "CloudFormation",
+        "Distributed Systems",
+        "Data Pipelines"
+      ],
+      "responsibilities": [
+        "Guide strategic customers through AWS deployments from design to production",
+        "Architect secure deployments across AWS networking and identity",
+        "Act as subject-matter expert on AWS infrastructure and IaC",
+        "Feed customer requirements back into product direction"
+      ],
+      "requirements": [
+        "6+ years in solutions architecture or a senior hands-on technical role",
+        "Advanced AWS security, identity and enterprise networking",
+        "Hands-on IaC with Terraform, CloudFormation or CDK",
+        "Strong Python and SQL, including live coding"
+      ],
+      "source_name": "Databricks careers (Greenhouse job board)",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8739506002",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

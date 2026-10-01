@@ -1,0 +1,100 @@
+{
+  "role": "cybersecurity-analyst",
+  "role_title": "Cybersecurity Analyst",
+  "role_summary": "Monitors, investigates and responds to security threats: alert triage, incident analysis, vulnerability management and security tooling.",
+  "core_skills": [
+    "Security Operations",
+    "SIEM",
+    "EDR",
+    "Incident Response",
+    "Threat Detection",
+    "Vulnerability Management",
+    "Networking",
+    "Linux",
+    "OWASP",
+    "Firewalls",
+    "Python"
+  ],
+  "postings": [
+    {
+      "id": "cybersecurity-analyst-01",
+      "title": "Senior SOC Analyst",
+      "company": "Zscaler",
+      "location": "India",
+      "work_type": "Remote",
+      "level": "Mid level",
+      "experience": "3+ years",
+      "summary": "Security operations analyst monitoring alerts, investigating incidents and phishing, and responding according to established procedures.",
+      "required_skills": [
+        "Security Operations",
+        "SIEM",
+        "EDR",
+        "IDS/IPS",
+        "Firewalls",
+        "Incident Response",
+        "Threat Detection",
+        "Phishing Analysis",
+        "Networking"
+      ],
+      "preferred_skills": [
+        "CrowdStrike Falcon",
+        "Chronicle",
+        "AI Security Fundamentals"
+      ],
+      "responsibilities": [
+        "Monitor security alerts and events for threats",
+        "Detect, analyse and scope security incidents across tools",
+        "Respond to incidents following established procedures",
+        "Investigate phishing reports"
+      ],
+      "requirements": [
+        "3+ years in a security operations centre",
+        "Bachelor's in Computer Science, Cybersecurity, IT or similar",
+        "Familiarity with SIEM, EDR, IDS/IPS, firewalls and antivirus tools",
+        "Understanding of networks, operating systems and endpoints"
+      ],
+      "source_name": "Zscaler careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/zscaler/jobs/5227668007",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    },
+    {
+      "id": "cybersecurity-analyst-02",
+      "title": "Intermediate Security Analyst, Vulnerability Operations",
+      "company": "GitLab",
+      "location": "Canada / United States",
+      "work_type": "Remote",
+      "level": "Early career",
+      "experience": "Early career",
+      "summary": "Vulnerability operations analyst triaging bug bounty reports and vulnerabilities, assessing severity and coordinating disclosure and fixes.",
+      "required_skills": [
+        "Vulnerability Management",
+        "CVSS",
+        "OWASP",
+        "Web Security",
+        "Communication",
+        "Documentation"
+      ],
+      "preferred_skills": [
+        "Incident Response",
+        "CI/CD",
+        "APIs"
+      ],
+      "responsibilities": [
+        "Triage bug bounty reports and validate findings",
+        "Track vulnerabilities from assessment to remediation",
+        "Assess severity using CVE, CVSS, CWE and OWASP",
+        "Write runbooks and coordinate customer-facing security communications"
+      ],
+      "requirements": [
+        "Early-career experience or equivalent education in cybersecurity or software",
+        "Foundational knowledge of web application and API vulnerabilities",
+        "Clear, professional written communication"
+      ],
+      "source_name": "GitLab careers (Greenhouse job board)",
+      "source_url": "https://job-boards.greenhouse.io/gitlab/jobs/8821526002",
+      "retrieved_at": "2026-09-25",
+      "source_note": "Summary written in our own words from the public listing as it appeared on the retrieval date. It is not the original text, and the role may no longer be open."
+    }
+  ]
+}

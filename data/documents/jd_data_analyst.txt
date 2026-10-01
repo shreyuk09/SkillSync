@@ -1,0 +1,38 @@
+Data Analyst
+Meridian Retail Group | Hyderabad, India | Full-time
+
+ABOUT US
+Meridian Retail Group operates 240 stores and a growing online business. The analytics
+team turns sales, inventory and customer data into the decisions that drive buying,
+pricing and store operations.
+
+WHAT YOU WILL DO
+- Build and maintain dashboards that track sales, margin and inventory performance.
+- Write SQL queries against our data warehouse to answer business questions.
+- Clean, join and validate data from multiple source systems.
+- Perform exploratory data analysis to explain changes in key metrics.
+- Run and interpret A/B tests for pricing and promotion experiments.
+- Present findings to category managers who are not technical.
+- Automate recurring reports so the team stops rebuilding them by hand.
+- Partner with the data engineering team on data quality issues.
+
+MINIMUM QUALIFICATIONS
+- Bachelor's degree in Statistics, Mathematics, Economics, Computer Science or a
+  related quantitative field.
+- Strong SQL skills, including joins, window functions and aggregation.
+- Proficiency with Excel, including pivot tables and lookup functions.
+- Working knowledge of Python for data analysis, particularly pandas and numpy.
+- Experience building visualisations in Power BI or Tableau.
+- Understanding of descriptive statistics and hypothesis testing.
+- Clear written and verbal communication.
+
+PREFERRED SKILLS
+- Experience with ETL tools or building data pipelines.
+- Familiarity with cloud data warehouses such as Snowflake or BigQuery.
+- Exposure to Apache Airflow.
+- Basic machine learning knowledge for forecasting.
+- Retail or e-commerce domain experience.
+
+KEYWORDS
+SQL, Python, pandas, Power BI, Tableau, Excel, data visualisation, statistics,
+A/B testing, ETL, data warehouse, dashboards, reporting, data cleaning

@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------------------
+# Core web stack
+# ---------------------------------------------------------------------------
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+typing-extensions>=4.7.0
+python-dotenv>=1.0.0
+
+# ---------------------------------------------------------------------------
+# LLM (generation step of the RAG pipeline)
+# ---------------------------------------------------------------------------
+# 0.125.x is the newest release that still supports Python 3.9; on Python 3.10+
+# pip will pick a newer major version. Both expose the same messages.create API
+# surface that app/rag/llm.py uses.
+anthropic>=0.125.0
+
+# Groq -- open models on fast inference, generous free tier.
+# The app runs on either provider; see LLM_PROVIDER in .env.
+groq>=1.0.0
+
+# ---------------------------------------------------------------------------
+# Document processing (extraction step)
+# ---------------------------------------------------------------------------
+pypdf>=4.2.0
+python-docx>=1.1.0
+
+# ---------------------------------------------------------------------------
+# Vector math
+# ---------------------------------------------------------------------------
+numpy>=1.26.0
+
+# ---------------------------------------------------------------------------
+# Embeddings + vector database.
+#
+# These two are the "heavy" dependencies (sentence-transformers pulls in
+# PyTorch, ~2 GB on disk). The app detects them at startup:
+#   * installed     -> real MiniLM sentence embeddings + Chroma vector DB
+#   * not installed -> built-in hashing embedder + NumPy cosine store
+#
+# Both paths run the *same* RAG pipeline. If you want the lightweight install,
+# use `pip install -r requirements-lite.txt` instead of this file.
+# ---------------------------------------------------------------------------
+sentence-transformers>=3.0.0
+chromadb>=0.5.0

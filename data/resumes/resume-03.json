@@ -1,0 +1,83 @@
+{
+  "id": "resume-03",
+  "name": "Kabir Shah",
+  "headline": "Frontend Web Developer",
+  "target_role": "web-developer",
+  "location": "Ahmedabad, India",
+  "email": "kabir.shah@example.com",
+  "years_experience": 1,
+  "summary": "Frontend developer focused on responsive, accessible interfaces.",
+  "education": [
+    {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Sabarmati College of Science",
+      "start": "2019",
+      "end": "2022"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Junior Web Developer",
+      "company": "Pixelmint Studio (fictional)",
+      "location": "Ahmedabad",
+      "start": "2022-09",
+      "end": "Present",
+      "bullets": [
+        "Developed responsive marketing sites for clients using HTML, CSS and JavaScript.",
+        "Converted Figma designs into React components.",
+        "Improved Lighthouse performance score on the agency site from 58 to 91.",
+        "Responsible for website maintenance."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Weather Dashboard",
+      "tech": [
+        "React",
+        "Tailwind CSS",
+        "OpenWeather API"
+      ],
+      "description": "Weather app with search, saved cities and a 5-day chart."
+    },
+    {
+      "name": "Portfolio Site",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Personal portfolio with dark mode."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Figma",
+      "Git",
+      "Web Performance",
+      "Accessibility"
+    ],
+    "soft": [
+      "Attention to Detail",
+      "Communication"
+    ]
+  },
+  "certifications": [
+    "freeCodeCamp Responsive Web Design"
+  ],
+  "achievements": [],
+  "interests": [
+    "Illustration",
+    "Football"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "resume-01",
+  "name": "Arjun Mehra",
+  "headline": "Java Backend Developer",
+  "target_role": "java-developer",
+  "location": "Pune, India",
+  "email": "arjun.mehra@example.com",
+  "years_experience": 2,
+  "summary": "Backend developer with two years of experience building Java and Spring Boot services for an internal logistics platform. Comfortable with REST APIs, SQL and Git, and keen to work on larger distributed systems.",
+  "education": [
+    {
+      "degree": "B.E. Computer Engineering",
+      "institution": "Western Plains Institute of Technology",
+      "start": "2018",
+      "end": "2022",
+      "grade": "8.1 CGPA",
+      "coursework": [
+        "Data Structures",
+        "Operating Systems",
+        "DBMS",
+        "Computer Networks"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Northwind Logistics Tech (fictional)",
+      "location": "Pune",
+      "start": "2022-07",
+      "end": "Present",
+      "bullets": [
+        "Built and maintained 6 Spring Boot REST services for shipment tracking used by 40+ warehouse teams.",
+        "Cut average API response time from 820 ms to 310 ms by adding query indexes and caching hot lookups.",
+        "Wrote JUnit tests that raised service coverage from 35% to 70%.",
+        "Worked on the database layer."
+      ]
+    },
+    {
+      "title": "Backend Intern",
+      "company": "Brightpath Software (fictional)",
+      "location": "Pune",
+      "start": "2022-01",
+      "end": "2022-06",
+      "bullets": [
+        "Helped with Java code for an invoicing module.",
+        "Fixed bugs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Library Management API",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Hibernate"
+      ],
+      "description": "REST API for book lending with JWT authentication, fines calculation and paginated search."
+    },
+    {
+      "name": "Chat Server",
+      "tech": [
+        "Java",
+        "Sockets"
+      ],
+      "description": "Multi-threaded console chat server."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "REST APIs",
+      "MySQL",
+      "SQL",
+      "Git",
+      "Unit Testing",
+      "Data Structures & Algorithms",
+      "Linux"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Collaboration",
+      "Communication"
+    ]
+  },
+  "certifications": [
+    "Oracle Certified Associate, Java SE 8 Programmer"
+  ],
+  "achievements": [
+    "Top 5% in a college coding contest (2021)"
+  ],
+  "interests": [
+    "Chess",
+    "Cycling"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

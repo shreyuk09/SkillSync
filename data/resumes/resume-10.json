@@ -1,0 +1,115 @@
+{
+  "id": "resume-10",
+  "name": "Aditya Verma",
+  "headline": "Computer Science Graduate",
+  "target_role": "java-developer",
+  "location": "Hyderabad, India",
+  "email": "aditya.verma@example.com",
+  "years_experience": 0,
+  "summary": "Recent Computer Science graduate with hands-on projects in Java, Python, web development and machine learning. Looking for an entry-level software engineering role.",
+  "education": [
+    {
+      "degree": "B.Tech Computer Science and Engineering",
+      "institution": "Godavari Institute of Engineering and Technology",
+      "start": "2020",
+      "end": "2024",
+      "grade": "8.3 CGPA",
+      "coursework": [
+        "Data Structures",
+        "Algorithms",
+        "DBMS",
+        "Operating Systems",
+        "Computer Networks",
+        "Machine Learning",
+        "Cloud Computing"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Intern",
+      "company": "Brightleaf Labs (fictional)",
+      "location": "Hyderabad (Remote)",
+      "start": "2023-05",
+      "end": "2023-07",
+      "bullets": [
+        "Built REST endpoints in Spring Boot for an internal leave-management tool.",
+        "Wrote SQL queries and fixed UI bugs in the React front end."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Resume Analyzer",
+      "tech": [
+        "Python",
+        "Flask",
+        "NLP"
+      ],
+      "description": "Web app that extracts skills from uploaded resumes and compares them with job descriptions."
+    },
+    {
+      "name": "E-commerce Website",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Online store with cart, orders and an admin panel."
+    },
+    {
+      "name": "Movie Recommendation System",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "description": "Content-based recommender using TF-IDF similarity."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Java",
+      "Python",
+      "C",
+      "Spring Boot",
+      "Flask",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Pandas",
+      "Data Structures & Algorithms",
+      "AWS"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Time Management",
+      "Adaptability",
+      "Collaboration"
+    ]
+  },
+  "certifications": [
+    "AWS Cloud Practitioner (in progress)",
+    "NPTEL: Programming in Java"
+  ],
+  "achievements": [
+    "Finalist, state-level hackathon (2023)"
+  ],
+  "interests": [
+    "Competitive programming",
+    "Music"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

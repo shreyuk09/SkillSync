@@ -1,0 +1,38 @@
+Frontend Developer
+Lumen Studio | Remote (India) | Full-time
+
+THE ROLE
+Lumen Studio designs and builds web products for healthcare and education clients. We
+are looking for a Frontend Developer who cares about how an interface feels, not just
+whether it renders. You will own features end to end, from a Figma file to production.
+
+RESPONSIBILITIES
+- Build responsive, accessible user interfaces with React and TypeScript.
+- Translate Figma designs into components that hold up across screen sizes.
+- Manage client-side state and integrate REST APIs from our backend teams.
+- Write component tests and take part in code review.
+- Improve page performance: bundle size, render cost, Core Web Vitals.
+- Maintain and extend our shared component library.
+- Work directly with designers and product managers in weekly iterations.
+
+REQUIRED SKILLS
+- 1-3 years building production frontends, or an equivalent portfolio.
+- Strong JavaScript fundamentals, including ES6+ and asynchronous patterns.
+- Hands-on experience with React, including hooks and component composition.
+- Confident with HTML and modern CSS, including Flexbox and Grid.
+- Experience consuming REST APIs.
+- Familiarity with Git-based workflows.
+- An eye for detail in spacing, typography and interaction states.
+
+NICE TO HAVE
+- TypeScript in a production codebase.
+- Tailwind CSS or another utility-first framework.
+- Next.js and an understanding of server-side rendering.
+- Testing with Jest and React Testing Library.
+- Web accessibility knowledge (WCAG, ARIA, keyboard navigation).
+- Basic Figma skills for reading and adjusting design files.
+- Experience with a design system or component library.
+
+EDUCATION
+Bachelor's degree in Computer Science or a related field, or demonstrable equivalent
+experience.

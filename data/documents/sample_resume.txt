@@ -1,0 +1,70 @@
+AARAV SHARMA
+Bengaluru, Karnataka | +91 98765 43210 | aarav.sharma@example.com
+linkedin.com/in/aarav-sharma-dev | github.com/aaravsharma
+
+CAREER OBJECTIVE
+Final-year Computer Science student looking for a software developer role where I can
+work on full-stack web applications. Comfortable across Java and JavaScript, and most
+interested in teams that care about clean APIs and good user experience.
+
+EDUCATION
+B.Tech in Computer Science and Engineering
+RV College of Engineering, Bengaluru | Aug 2022 - May 2026
+CGPA: 8.64 / 10
+
+Senior Secondary (CBSE), Delhi Public School, Bengaluru | 2022
+Percentage: 92.4%
+
+TECHNICAL SKILLS
+Languages: Java, Python, JavaScript, SQL, HTML, CSS
+Frameworks and Libraries: React, Node.js, Express, Spring Boot, Tailwind CSS
+Databases: MySQL, MongoDB
+Tools: Git, GitHub, Postman, VS Code, IntelliJ IDEA, Figma
+Concepts: Data Structures and Algorithms, Object Oriented Programming, REST APIs, Agile
+
+SOFT SKILLS
+Team collaboration, technical writing, public speaking, mentoring juniors
+
+PROJECTS
+
+NutriSmart - AI Nutrition Tracking Web App | Jan 2025 - Apr 2025
+Built a full-stack nutrition tracking application that lets users log meals and see
+daily macro breakdowns. Implemented a React frontend with a Node.js and Express REST
+API backed by MongoDB. Added JWT authentication so each user's food log stays private.
+Integrated a public nutrition data API to auto-fill calorie and macro information from
+a food name. Wrote unit tests for the API layer with Jest.
+Tech: React, Node.js, Express, MongoDB, REST APIs, JWT, Jest
+github.com/aaravsharma/nutrismart
+
+Travel Booking Platform | Aug 2024 - Nov 2024
+Developed a travel website using React. Users can browse destinations, filter by budget
+and dates, and complete a mock booking flow. Built the backend with Spring Boot and
+MySQL, exposing REST endpoints for search and booking. Used Tailwind CSS for a
+responsive layout that works on mobile.
+Tech: React, Spring Boot, MySQL, Tailwind CSS, REST APIs
+
+IoT Soil Moisture Monitoring System | Feb 2024 - Apr 2024
+College mini-project. Connected soil moisture sensors to an Arduino board and pushed
+readings to a Python Flask service, which stored readings in SQLite and rendered a
+simple dashboard of moisture levels over time.
+Tech: Python, Flask, SQLite, Arduino
+
+INTERNSHIP
+Software Development Intern | Trellis Systems, Bengaluru | Jun 2025 - Aug 2025
+Worked with the internal tools team on a Java Spring Boot service. Added three REST
+endpoints for the employee directory feature and wrote the corresponding JUnit tests.
+Fixed 14 bugs reported by the QA team. Participated in daily stand-ups and sprint
+planning using Jira.
+Tech: Java, Spring Boot, MySQL, Git, JUnit, Jira
+
+CERTIFICATIONS
+Meta Front-End Developer Professional Certificate, Coursera, 2024
+Oracle Certified Associate, Java SE 8 Programmer, 2024
+
+ACHIEVEMENTS
+Finalist, Smart India Hackathon 2024 (top 40 of 380 teams)
+Second place, RVCE Intra-College Coding Contest, 2024
+Technical Secretary, Coding Club RVCE, 2024-2025 - organised 6 workshops for 200+ students
+
+LANGUAGES KNOWN
+English (fluent), Hindi (fluent), Kannada (conversational)

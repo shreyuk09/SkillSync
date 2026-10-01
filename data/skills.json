@@ -1,0 +1,1560 @@
+{
+  "version": 2,
+  "skills": [
+    {
+      "name": "Java",
+      "category": "Languages",
+      "description": "General-purpose, strongly typed language widely used for enterprise backends.",
+      "how_to_learn": "Build a small REST service in Java and push it to GitHub with tests.",
+      "aliases": [
+        "core java",
+        "java 17",
+        "java 8",
+        "jdk"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Python",
+      "category": "Languages",
+      "description": "Readable general-purpose language used for scripting, backends, automation and data work.",
+      "how_to_learn": "Automate a real task or build a small API or data analysis in Python.",
+      "aliases": [
+        "python3",
+        "py"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "JavaScript",
+      "category": "Languages",
+      "description": "The language of the web browser, also used on servers through Node.js.",
+      "how_to_learn": "Build an interactive web page, then a small app using a framework.",
+      "aliases": [
+        "js",
+        "es6",
+        "ecmascript"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "TypeScript",
+      "category": "Languages",
+      "description": "JavaScript with static types, which catches errors earlier in large codebases.",
+      "how_to_learn": "Convert an existing JavaScript project to TypeScript.",
+      "aliases": [
+        "ts"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Go",
+      "category": "Languages",
+      "description": "Fast, simple compiled language popular for cloud infrastructure and tooling.",
+      "how_to_learn": "Write a small CLI or HTTP service in Go.",
+      "aliases": [
+        "golang"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "R",
+      "category": "Languages",
+      "description": "Language focused on statistics and data analysis.",
+      "how_to_learn": "Reproduce an analysis you did in Python using R and ggplot2.",
+      "aliases": [
+        "r language",
+        "rstudio"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Ruby",
+      "category": "Languages",
+      "description": "Dynamic language known for developer productivity and Ruby on Rails.",
+      "how_to_learn": "Build a small Rails or Sinatra app.",
+      "aliases": [
+        "ruby on rails",
+        "rails"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Scala",
+      "category": "Languages",
+      "description": "JVM language that combines object-oriented and functional programming.",
+      "how_to_learn": "Port a small Java program to Scala.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "C++",
+      "category": "Languages",
+      "description": "High-performance compiled language used in systems and competitive programming.",
+      "how_to_learn": "Solve algorithm problems or build a small systems project in C++.",
+      "aliases": [
+        "cpp",
+        "c plus plus"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "C",
+      "category": "Languages",
+      "description": "Low-level systems language that underpins operating systems and embedded software.",
+      "how_to_learn": "Implement a data structure or small utility in C.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Spring Boot",
+      "category": "Backend",
+      "description": "Java framework for building production-ready services with minimal configuration.",
+      "how_to_learn": "Build a CRUD REST API with Spring Boot, JPA and a database.",
+      "aliases": [
+        "springboot",
+        "spring-boot"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Spring",
+      "category": "Backend",
+      "description": "The Spring framework ecosystem for Java applications (DI, MVC, data, security).",
+      "how_to_learn": "Learn Spring core concepts, then build with Spring Boot.",
+      "aliases": [
+        "spring framework",
+        "spring mvc"
+      ],
+      "satisfied_by": [
+        "Spring Boot"
+      ]
+    },
+    {
+      "name": "Hibernate",
+      "category": "Backend",
+      "description": "Java ORM that maps objects to relational database tables.",
+      "how_to_learn": "Add JPA/Hibernate persistence to a Spring Boot project.",
+      "aliases": [
+        "jpa",
+        "spring data jpa"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Microservices",
+      "category": "Backend",
+      "description": "Architecture that splits an application into small, independently deployable services.",
+      "how_to_learn": "Split a project into two services that communicate over REST or a queue.",
+      "aliases": [
+        "microservice",
+        "micro-services"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "REST APIs",
+      "category": "Backend",
+      "description": "HTTP APIs designed around resources, methods and status codes.",
+      "how_to_learn": "Design and document a REST API with clear endpoints and error handling.",
+      "aliases": [
+        "rest",
+        "restful",
+        "rest api",
+        "restful apis",
+        "api development"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "APIs",
+      "category": "Backend",
+      "description": "Interfaces that let software systems talk to each other.",
+      "how_to_learn": "Build or integrate a public API in a project.",
+      "aliases": [
+        "api"
+      ],
+      "satisfied_by": [
+        "REST APIs",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "category": "Backend",
+      "description": "Query language for APIs that lets clients request exactly the data they need.",
+      "how_to_learn": "Add a GraphQL endpoint to an existing project.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend",
+      "description": "JavaScript runtime for building servers and tooling.",
+      "how_to_learn": "Build a REST API with Node.js and Express.",
+      "aliases": [
+        "node",
+        "nodejs",
+        "express",
+        "express.js"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "FastAPI",
+      "category": "Backend",
+      "description": "Modern, fast Python web framework for building APIs.",
+      "how_to_learn": "Build a typed REST API with FastAPI and automatic docs.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Flask",
+      "category": "Backend",
+      "description": "Lightweight Python web framework.",
+      "how_to_learn": "Build a small web app or API with Flask.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Django",
+      "category": "Backend",
+      "description": "Batteries-included Python web framework.",
+      "how_to_learn": "Build a full CRUD app with Django and its admin.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Event-Driven Architecture",
+      "category": "Backend",
+      "description": "Systems that react to events through queues or streams instead of direct calls.",
+      "how_to_learn": "Add a message queue (e.g. Kafka or SQS) between two parts of a project.",
+      "aliases": [
+        "event driven",
+        "event-driven",
+        "message queues",
+        "pub/sub"
+      ],
+      "satisfied_by": [
+        "Kafka"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "category": "Backend",
+      "description": "Systems that run across many machines and must handle failures, latency and consistency.",
+      "how_to_learn": "Study consistency and failure patterns, then build a multi-service project.",
+      "aliases": [
+        "distributed computing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Billing Systems",
+      "category": "Domain",
+      "description": "Software that handles subscriptions, usage-based pricing and invoicing.",
+      "how_to_learn": "Model a simple subscription billing flow in a side project.",
+      "aliases": [
+        "billing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "React",
+      "category": "Frontend",
+      "description": "Component-based JavaScript library for building user interfaces.",
+      "how_to_learn": "Build a multi-page React app with routing and API calls.",
+      "aliases": [
+        "react.js",
+        "reactjs"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend",
+      "description": "React framework with server rendering and routing built in.",
+      "how_to_learn": "Rebuild a React project with Next.js.",
+      "aliases": [
+        "nextjs"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Vue",
+      "category": "Frontend",
+      "description": "Progressive JavaScript framework for building user interfaces.",
+      "how_to_learn": "Build a small app with Vue 3.",
+      "aliases": [
+        "vue.js",
+        "vuejs"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Angular",
+      "category": "Frontend",
+      "description": "Full-featured TypeScript framework for web applications.",
+      "how_to_learn": "Build a small Angular app with forms and routing.",
+      "aliases": [
+        "angularjs"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "HTML",
+      "category": "Frontend",
+      "description": "Markup language that structures web pages.",
+      "how_to_learn": "Build semantic, accessible page layouts.",
+      "aliases": [
+        "html5"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "CSS",
+      "category": "Frontend",
+      "description": "Style language for layout and visual design on the web.",
+      "how_to_learn": "Build responsive layouts with Flexbox and Grid.",
+      "aliases": [
+        "css3",
+        "scss",
+        "sass"
+      ],
+      "satisfied_by": [
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "description": "Utility-first CSS framework.",
+      "how_to_learn": "Style a project with Tailwind utility classes.",
+      "aliases": [
+        "tailwind"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Accessibility",
+      "category": "Frontend",
+      "description": "Making interfaces usable by everyone, including people using assistive technology.",
+      "how_to_learn": "Audit a project with Lighthouse and fix keyboard and contrast issues.",
+      "aliases": [
+        "a11y",
+        "wcag"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Web Performance",
+      "category": "Frontend",
+      "description": "Making pages load and respond quickly.",
+      "how_to_learn": "Measure a site with Lighthouse and improve its Core Web Vitals.",
+      "aliases": [
+        "performance optimization",
+        "core web vitals"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Frontend Testing",
+      "category": "Frontend",
+      "description": "Automated tests for UI components and user flows.",
+      "how_to_learn": "Add Jest or React Testing Library tests to a project.",
+      "aliases": [
+        "jest",
+        "cypress",
+        "react testing library",
+        "playwright"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Frontend Architecture",
+      "category": "Frontend",
+      "description": "Structuring large frontend codebases: state, modules and boundaries.",
+      "how_to_learn": "Refactor a project into clear modules with shared components.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Component Design",
+      "category": "Frontend",
+      "description": "Designing reusable, composable UI components.",
+      "how_to_learn": "Build a small reusable component library.",
+      "aliases": [
+        "component library"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "description": "Language for querying and managing relational databases.",
+      "how_to_learn": "Practise joins, aggregations and indexes on a real dataset.",
+      "aliases": [
+        "sql queries"
+      ],
+      "satisfied_by": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "description": "Advanced open-source relational database.",
+      "how_to_learn": "Use PostgreSQL as the database for a project.",
+      "aliases": [
+        "postgres"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "description": "Popular open-source relational database.",
+      "how_to_learn": "Use MySQL as the database for a project.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "NoSQL",
+      "category": "Databases",
+      "description": "Non-relational databases such as document, key-value and wide-column stores.",
+      "how_to_learn": "Store part of a project in MongoDB or Redis and compare the trade-offs.",
+      "aliases": [
+        "non-relational"
+      ],
+      "satisfied_by": [
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "description": "Document-oriented NoSQL database.",
+      "how_to_learn": "Build a project that stores JSON documents in MongoDB.",
+      "aliases": [
+        "mongo"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "description": "In-memory data store used for caching and queues.",
+      "how_to_learn": "Add Redis caching to an API.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "ClickHouse",
+      "category": "Databases",
+      "description": "Column-oriented database for fast analytics.",
+      "how_to_learn": "Load a large dataset into ClickHouse and run analytical queries.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "category": "Fundamentals",
+      "description": "Core computer science techniques for organising data and solving problems efficiently.",
+      "how_to_learn": "Practise regularly on problem sets and explain complexity trade-offs.",
+      "aliases": [
+        "dsa",
+        "data structures",
+        "algorithms"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Cloud Platforms",
+      "category": "Cloud",
+      "description": "Public cloud providers such as AWS, Google Cloud and Azure.",
+      "how_to_learn": "Deploy a project to a free cloud tier.",
+      "aliases": [
+        "cloud",
+        "cloud computing"
+      ],
+      "satisfied_by": [
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud",
+      "description": "Amazon Web Services, the most widely used public cloud.",
+      "how_to_learn": "Deploy an app on AWS (EC2 or ECS) and aim for the Cloud Practitioner certification.",
+      "aliases": [
+        "amazon web services"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "GCP",
+      "category": "Cloud",
+      "description": "Google Cloud Platform.",
+      "how_to_learn": "Deploy a service on Google Cloud Run.",
+      "aliases": [
+        "google cloud",
+        "google cloud platform"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud",
+      "description": "Microsoft Azure cloud platform.",
+      "how_to_learn": "Deploy an app on Azure App Service.",
+      "aliases": [
+        "microsoft azure"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "EC2",
+      "category": "Cloud",
+      "description": "AWS virtual machines.",
+      "how_to_learn": "Launch, configure and secure an EC2 instance.",
+      "aliases": [
+        "amazon ec2"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "IAM",
+      "category": "Cloud",
+      "description": "Identity and access management: who can do what in a cloud account.",
+      "how_to_learn": "Write least-privilege IAM policies for a project.",
+      "aliases": [
+        "identity and access management"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Auto Scaling",
+      "category": "Cloud",
+      "description": "Automatically adding or removing servers based on load.",
+      "how_to_learn": "Configure an AWS Auto Scaling group behind a load balancer.",
+      "aliases": [
+        "asg",
+        "auto scaling groups"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Networking",
+      "category": "Infrastructure",
+      "description": "How computers communicate: IP, DNS, routing, VPCs, load balancers.",
+      "how_to_learn": "Learn TCP/IP basics and build a VPC with public and private subnets.",
+      "aliases": [
+        "computer networks",
+        "tcp/ip",
+        "vpc"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Cloud Security",
+      "category": "Security",
+      "description": "Securing cloud accounts, networks, identities and data.",
+      "how_to_learn": "Harden a cloud project with IAM, encryption and security groups.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "description": "Packages applications and their dependencies into portable containers.",
+      "how_to_learn": "Write a Dockerfile for one of your projects and run it with Docker Compose.",
+      "aliases": [
+        "containers",
+        "containerization",
+        "docker compose"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "description": "Platform for running and scaling containers across machines.",
+      "how_to_learn": "Deploy a containerised app to a local Kubernetes cluster (kind or minikube).",
+      "aliases": [
+        "k8s"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Helm",
+      "category": "DevOps",
+      "description": "Package manager for Kubernetes applications.",
+      "how_to_learn": "Package a Kubernetes app as a Helm chart.",
+      "aliases": [
+        "helm charts"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Terraform",
+      "category": "DevOps",
+      "description": "Infrastructure-as-code tool for defining cloud resources in configuration files.",
+      "how_to_learn": "Provision a small cloud setup with Terraform.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Infrastructure as Code",
+      "category": "DevOps",
+      "description": "Managing infrastructure through version-controlled code instead of manual setup.",
+      "how_to_learn": "Recreate a manual cloud setup with Terraform or CloudFormation.",
+      "aliases": [
+        "iac"
+      ],
+      "satisfied_by": [
+        "Terraform",
+        "CloudFormation",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "CloudFormation",
+      "category": "DevOps",
+      "description": "AWS native infrastructure-as-code service.",
+      "how_to_learn": "Define a small AWS stack with CloudFormation.",
+      "aliases": [
+        "aws cloudformation",
+        "aws cdk"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Ansible",
+      "category": "DevOps",
+      "description": "Automation tool for configuring servers.",
+      "how_to_learn": "Automate server setup with an Ansible playbook.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps",
+      "description": "Automatically building, testing and deploying code on every change.",
+      "how_to_learn": "Add a GitHub Actions pipeline that tests and deploys a project.",
+      "aliases": [
+        "ci cd",
+        "continuous integration",
+        "continuous deployment",
+        "ci/cd pipelines"
+      ],
+      "satisfied_by": [
+        "Jenkins",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "category": "DevOps",
+      "description": "Open-source automation server for CI/CD pipelines.",
+      "how_to_learn": "Set up a Jenkins pipeline for a project.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "DevOps",
+      "description": "CI/CD built into GitHub.",
+      "how_to_learn": "Add a GitHub Actions workflow that runs tests on every push.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "GitOps",
+      "category": "DevOps",
+      "description": "Managing deployments by committing desired state to Git.",
+      "how_to_learn": "Deploy to Kubernetes with Argo CD or Flux from a Git repo.",
+      "aliases": [
+        "argo cd",
+        "flux"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Linux",
+      "category": "Infrastructure",
+      "description": "The operating system behind most servers and cloud workloads.",
+      "how_to_learn": "Use Linux daily and learn the shell, permissions and processes.",
+      "aliases": [
+        "unix",
+        "ubuntu"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Shell Scripting",
+      "category": "DevOps",
+      "description": "Automating tasks with Bash or similar shells.",
+      "how_to_learn": "Write scripts that automate a repetitive setup task.",
+      "aliases": [
+        "bash",
+        "shell"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Observability",
+      "category": "DevOps",
+      "description": "Understanding system behaviour through logs, metrics and traces.",
+      "how_to_learn": "Instrument a project with metrics and tracing and build a dashboard.",
+      "aliases": [
+        "logging",
+        "tracing"
+      ],
+      "satisfied_by": [
+        "Prometheus",
+        "OpenTelemetry",
+        "Grafana"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "category": "DevOps",
+      "description": "Tracking system health and alerting when something is wrong.",
+      "how_to_learn": "Add health checks, metrics and alerts to a deployed app.",
+      "aliases": [
+        "alerting"
+      ],
+      "satisfied_by": [
+        "Observability",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "category": "DevOps",
+      "description": "Open-source metrics collection and alerting system.",
+      "how_to_learn": "Expose metrics from an app and scrape them with Prometheus.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Grafana",
+      "category": "DevOps",
+      "description": "Dashboards for metrics and logs.",
+      "how_to_learn": "Build a Grafana dashboard on top of Prometheus metrics.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "OpenTelemetry",
+      "category": "DevOps",
+      "description": "Open standard for collecting traces, metrics and logs.",
+      "how_to_learn": "Add OpenTelemetry tracing to a small service.",
+      "aliases": [
+        "otel"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Kafka",
+      "category": "DevOps",
+      "description": "Distributed event streaming platform.",
+      "how_to_learn": "Stream events between two services with Kafka.",
+      "aliases": [
+        "apache kafka"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "SLOs",
+      "category": "DevOps",
+      "description": "Service level objectives: measurable reliability targets for a service.",
+      "how_to_learn": "Define an availability SLO and error budget for a project.",
+      "aliases": [
+        "sli",
+        "slo",
+        "sla",
+        "error budgets"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Incident Response",
+      "category": "Security",
+      "description": "Detecting, containing and learning from production or security incidents.",
+      "how_to_learn": "Write a runbook and a post-incident review for a simulated outage.",
+      "aliases": [
+        "incident management",
+        "on-call"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Data Pipelines",
+      "category": "Data",
+      "description": "Automated flows that move and transform data.",
+      "how_to_learn": "Build a small ETL pipeline that loads data into a database.",
+      "aliases": [
+        "etl"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Data Engineering",
+      "category": "Data",
+      "description": "Building systems that collect, store and prepare data for analysis.",
+      "how_to_learn": "Build a pipeline with scheduling and data-quality checks.",
+      "aliases": [],
+      "satisfied_by": [
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Security Operations",
+      "category": "Security",
+      "description": "Day-to-day monitoring, triage and response in a security operations centre.",
+      "how_to_learn": "Practise alert triage in a home lab or blue-team exercises.",
+      "aliases": [
+        "soc",
+        "secops"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "SIEM",
+      "category": "Security",
+      "description": "Security information and event management: centralised log analysis for threats.",
+      "how_to_learn": "Ingest logs into Splunk or Elastic and write detection searches.",
+      "aliases": [
+        "splunk",
+        "qradar",
+        "elastic siem"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "EDR",
+      "category": "Security",
+      "description": "Endpoint detection and response tools that monitor devices for threats.",
+      "how_to_learn": "Explore an EDR in a lab and investigate simulated alerts.",
+      "aliases": [
+        "endpoint detection"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "IDS/IPS",
+      "category": "Security",
+      "description": "Systems that detect or block malicious network traffic.",
+      "how_to_learn": "Run Snort or Suricata in a lab and tune rules.",
+      "aliases": [
+        "intrusion detection",
+        "snort",
+        "suricata"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Firewalls",
+      "category": "Security",
+      "description": "Controls that filter network traffic by rules.",
+      "how_to_learn": "Configure firewall rules for a lab network.",
+      "aliases": [
+        "firewall"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Threat Detection",
+      "category": "Security",
+      "description": "Identifying malicious activity from logs and signals.",
+      "how_to_learn": "Write detection rules for common attack techniques (MITRE ATT&CK).",
+      "aliases": [
+        "threat hunting",
+        "mitre att&ck"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Phishing Analysis",
+      "category": "Security",
+      "description": "Investigating suspicious emails and links.",
+      "how_to_learn": "Analyse sample phishing emails: headers, links and attachments.",
+      "aliases": [
+        "phishing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Vulnerability Management",
+      "category": "Security",
+      "description": "Finding, prioritising and tracking security weaknesses to remediation.",
+      "how_to_learn": "Scan a lab with OpenVAS or Nessus and prioritise the findings.",
+      "aliases": [
+        "vulnerability assessment",
+        "nessus"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "CVSS",
+      "category": "Security",
+      "description": "Standard scoring system for vulnerability severity.",
+      "how_to_learn": "Score several public CVEs with the CVSS calculator.",
+      "aliases": [
+        "cve",
+        "cwe"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "OWASP",
+      "category": "Security",
+      "description": "Community standards for web application security, including the OWASP Top 10.",
+      "how_to_learn": "Work through the OWASP Top 10 using a practice app such as Juice Shop.",
+      "aliases": [
+        "owasp top 10"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Web Security",
+      "category": "Security",
+      "description": "Securing web applications and APIs.",
+      "how_to_learn": "Find and fix common vulnerabilities in a practice web app.",
+      "aliases": [
+        "application security",
+        "appsec",
+        "burp suite"
+      ],
+      "satisfied_by": [
+        "OWASP"
+      ]
+    },
+    {
+      "name": "Security Fundamentals",
+      "category": "Security",
+      "description": "Core security concepts: authentication, encryption, least privilege.",
+      "how_to_learn": "Complete an introductory security course and apply it to a project.",
+      "aliases": [
+        "information security",
+        "cybersecurity"
+      ],
+      "satisfied_by": [
+        "OWASP",
+        "Web Security",
+        "Security Operations"
+      ]
+    },
+    {
+      "name": "AI Security Fundamentals",
+      "category": "Security",
+      "description": "Understanding risks and safe use of AI systems.",
+      "how_to_learn": "Read about prompt injection and data leakage in LLM apps.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "CrowdStrike Falcon",
+      "category": "Security",
+      "description": "Commercial EDR platform.",
+      "how_to_learn": "Learn EDR concepts through free training material.",
+      "aliases": [
+        "crowdstrike"
+      ],
+      "satisfied_by": [
+        "EDR"
+      ]
+    },
+    {
+      "name": "Chronicle",
+      "category": "Security",
+      "description": "Google security operations and SIEM platform.",
+      "how_to_learn": "Learn SIEM concepts with any SIEM in a lab.",
+      "aliases": [
+        "google chronicle"
+      ],
+      "satisfied_by": [
+        "SIEM"
+      ]
+    },
+    {
+      "name": "Wireshark",
+      "category": "Security",
+      "description": "Network protocol analyser.",
+      "how_to_learn": "Capture and analyse traffic from your own machine.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Nmap",
+      "category": "Security",
+      "description": "Network scanner for discovering hosts and services.",
+      "how_to_learn": "Scan your own lab network and interpret the results.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Pandas",
+      "category": "Data & ML",
+      "description": "Python library for data manipulation and analysis.",
+      "how_to_learn": "Clean and analyse a public dataset with Pandas.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "NumPy",
+      "category": "Data & ML",
+      "description": "Python library for numerical computing.",
+      "how_to_learn": "Implement a simple model with NumPy arrays.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Statistics",
+      "category": "Data & ML",
+      "description": "Methods for drawing reliable conclusions from data.",
+      "how_to_learn": "Practise hypothesis testing and confidence intervals on real data.",
+      "aliases": [
+        "statistical analysis"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Data & ML",
+      "description": "Algorithms that learn patterns from data to make predictions.",
+      "how_to_learn": "Train, evaluate and explain a model on a real dataset.",
+      "aliases": [
+        "ml"
+      ],
+      "satisfied_by": [
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Data & ML",
+      "description": "Python library for classical machine learning.",
+      "how_to_learn": "Build a full modelling pipeline with scikit-learn.",
+      "aliases": [
+        "sklearn"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Data & ML",
+      "description": "Deep learning framework.",
+      "how_to_learn": "Train a small neural network with TensorFlow/Keras.",
+      "aliases": [
+        "keras"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "PyTorch",
+      "category": "Data & ML",
+      "description": "Deep learning framework popular in research.",
+      "how_to_learn": "Train a small neural network with PyTorch.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Experimentation",
+      "category": "Data & ML",
+      "description": "Designing and analysing experiments such as A/B tests.",
+      "how_to_learn": "Design an A/B test for a feature and analyse sample results.",
+      "aliases": [
+        "a/b testing",
+        "ab testing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data & ML",
+      "description": "Presenting data clearly through charts and dashboards.",
+      "how_to_learn": "Build a dashboard that answers a real business question.",
+      "aliases": [
+        "matplotlib",
+        "seaborn",
+        "dashboards"
+      ],
+      "satisfied_by": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "name": "Tableau",
+      "category": "Data & ML",
+      "description": "Business intelligence and dashboard tool.",
+      "how_to_learn": "Build a Tableau Public dashboard from a public dataset.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Power BI",
+      "category": "Data & ML",
+      "description": "Microsoft business intelligence tool.",
+      "how_to_learn": "Build a Power BI report from a public dataset.",
+      "aliases": [
+        "powerbi"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Excel",
+      "category": "Data & ML",
+      "description": "Spreadsheet tool for analysis and reporting.",
+      "how_to_learn": "Build a model with pivot tables and lookups.",
+      "aliases": [
+        "microsoft excel"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "LLM Integration",
+      "category": "Data & ML",
+      "description": "Adding large language model features to software, e.g. chat or retrieval.",
+      "how_to_learn": "Build a small retrieval-augmented app with an LLM API.",
+      "aliases": [
+        "llm",
+        "llms",
+        "genai",
+        "rag",
+        "langchain",
+        "openai api"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "AI Coding Tools",
+      "category": "Tools",
+      "description": "AI assistants that help write and review code, used with judgement.",
+      "how_to_learn": "Use an AI coding assistant on a project while reviewing every suggestion.",
+      "aliases": [
+        "github copilot",
+        "copilot",
+        "cursor"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Figma",
+      "category": "Design",
+      "description": "Collaborative interface design and prototyping tool.",
+      "how_to_learn": "Design and prototype a complete app flow in Figma.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Prototyping",
+      "category": "Design",
+      "description": "Building interactive mock-ups to test ideas before development.",
+      "how_to_learn": "Create a clickable prototype and test it with a few users.",
+      "aliases": [
+        "prototypes"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Wireframing",
+      "category": "Design",
+      "description": "Low-fidelity layouts that plan structure before visual design.",
+      "how_to_learn": "Wireframe a redesign of an app you use every day.",
+      "aliases": [
+        "wireframes"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "User Research",
+      "category": "Design",
+      "description": "Learning about users through interviews, surveys and observation.",
+      "how_to_learn": "Interview five users and turn findings into design decisions.",
+      "aliases": [
+        "ux research",
+        "user interviews"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Visual Design",
+      "category": "Design",
+      "description": "Typography, colour, layout and hierarchy.",
+      "how_to_learn": "Redesign a screen focusing on hierarchy and spacing.",
+      "aliases": [
+        "ui design"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Interaction Design",
+      "category": "Design",
+      "description": "How users interact with an interface: flows, states and feedback.",
+      "how_to_learn": "Design every state of one complex interaction.",
+      "aliases": [
+        "ixd",
+        "ux design"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Design Systems",
+      "category": "Design",
+      "description": "Shared components, tokens and guidelines that keep a product consistent.",
+      "how_to_learn": "Build a small design system with tokens and components in Figma.",
+      "aliases": [
+        "design system"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Usability Testing",
+      "category": "Design",
+      "description": "Watching users attempt tasks to find usability problems.",
+      "how_to_learn": "Run a usability test on one of your designs and iterate.",
+      "aliases": [
+        "user testing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Information Architecture",
+      "category": "Design",
+      "description": "Organising and labelling content so users can find things.",
+      "how_to_learn": "Card-sort and restructure the navigation of a site.",
+      "aliases": [
+        "ia"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Adobe XD",
+      "category": "Design",
+      "description": "Adobe interface design and prototyping tool.",
+      "how_to_learn": "Recreate a design in Adobe XD.",
+      "aliases": [
+        "xd"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Git",
+      "category": "Tools",
+      "description": "Version control system for tracking code changes.",
+      "how_to_learn": "Use branches, pull requests and meaningful commits in every project.",
+      "aliases": [
+        "github",
+        "gitlab",
+        "version control",
+        "version control management",
+        "source control"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Jira",
+      "category": "Tools",
+      "description": "Issue and project tracking tool.",
+      "how_to_learn": "Track a project with a simple Jira or Trello board.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Agile",
+      "category": "Practices",
+      "description": "Iterative way of working in short cycles with frequent feedback.",
+      "how_to_learn": "Run a personal project in one-week sprints.",
+      "aliases": [
+        "scrum",
+        "kanban"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Code Review",
+      "category": "Practices",
+      "description": "Reviewing teammates' code for quality and correctness.",
+      "how_to_learn": "Review pull requests in an open-source project.",
+      "aliases": [
+        "peer review"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Documentation",
+      "category": "Practices",
+      "description": "Writing clear technical docs, runbooks and READMEs.",
+      "how_to_learn": "Write a thorough README and a short runbook for a project.",
+      "aliases": [
+        "technical writing"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Unit Testing",
+      "category": "Practices",
+      "description": "Automated tests for individual units of code.",
+      "how_to_learn": "Add unit tests with JUnit or pytest to a project.",
+      "aliases": [
+        "junit",
+        "pytest",
+        "testing",
+        "unit tests",
+        "integration tests",
+        "automated tests",
+        "test automation"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Communication",
+      "category": "Soft skills",
+      "description": "Explaining ideas clearly in writing and conversation.",
+      "how_to_learn": "Write clear project READMEs and present your work to others.",
+      "aliases": [
+        "written communication",
+        "verbal communication"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Collaboration",
+      "category": "Soft skills",
+      "description": "Working effectively with others toward shared goals.",
+      "how_to_learn": "Contribute to a team project or open source.",
+      "aliases": [
+        "teamwork",
+        "team player"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Problem Solving",
+      "category": "Soft skills",
+      "description": "Breaking down problems and finding good solutions.",
+      "how_to_learn": "Describe a hard problem you solved and how on your resume.",
+      "aliases": [
+        "analytical thinking",
+        "troubleshooting"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Mentoring",
+      "category": "Soft skills",
+      "description": "Helping others grow their skills.",
+      "how_to_learn": "Mentor a junior student or peer and mention it.",
+      "aliases": [
+        "mentorship"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Leadership",
+      "category": "Soft skills",
+      "description": "Guiding people and projects toward outcomes.",
+      "how_to_learn": "Lead a club, project or initiative and describe the outcome.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Time Management",
+      "category": "Soft skills",
+      "description": "Prioritising and delivering on time.",
+      "how_to_learn": "Show delivered-on-time outcomes in your project descriptions.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Adaptability",
+      "category": "Soft skills",
+      "description": "Adjusting quickly to new situations and tools.",
+      "how_to_learn": "Highlight times you learned a new tool quickly.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Attention to Detail",
+      "category": "Soft skills",
+      "description": "Catching small issues before they become big ones.",
+      "how_to_learn": "Show quality outcomes such as bug reductions.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Stakeholder Management",
+      "category": "Soft skills",
+      "description": "Working with and communicating to people affected by your work.",
+      "how_to_learn": "Describe how you gathered and balanced requirements.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Critical Thinking",
+      "category": "Soft skills",
+      "description": "Evaluating information and arguments carefully.",
+      "how_to_learn": "Show decisions backed by evidence in your projects.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "category": "Fundamentals",
+      "description": "Designing software as objects with classes, inheritance, encapsulation and polymorphism.",
+      "how_to_learn": "Build a small project in an OOP language and explain your class design in the README.",
+      "aliases": [
+        "oop",
+        "object-oriented",
+        "object oriented programming",
+        "object-oriented programming language",
+        "object-oriented design",
+        "ood"
+      ],
+      "satisfied_by": [
+        "Java",
+        "C#",
+        "C++",
+        "Python",
+        "Kotlin",
+        "TypeScript",
+        "Scala",
+        "Ruby",
+        "Swift"
+      ]
+    },
+    {
+      "name": "Software Development Life Cycle",
+      "category": "Practices",
+      "description": "The stages of building software: requirements, design, build, test, release and maintenance.",
+      "how_to_learn": "Describe how one of your projects went from requirements to release, including testing.",
+      "aliases": [
+        "sdlc",
+        "software development life cycle",
+        "software development life cycles",
+        "software development lifecycle",
+        "development lifecycle"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Integration Testing",
+      "category": "Practices",
+      "description": "Testing how components work together, not just in isolation.",
+      "how_to_learn": "Add integration tests that exercise your API and database together.",
+      "aliases": [
+        "integration testing",
+        "component integration testing",
+        "integration tests"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Requirements Analysis",
+      "category": "Practices",
+      "description": "Turning user needs and user stories into clear technical specifications and tasks.",
+      "how_to_learn": "Write user stories and acceptance criteria for a project feature before building it.",
+      "aliases": [
+        "user stories",
+        "technical specifications",
+        "requirements gathering",
+        "business analysis",
+        "acceptance criteria"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Technical Support",
+      "category": "Practices",
+      "description": "Diagnosing and resolving problems users have with systems and software.",
+      "how_to_learn": "Mention any help-desk, first-line support or production support you have done.",
+      "aliases": [
+        "first line support",
+        "first-line support",
+        "it support",
+        "service desk",
+        "help desk",
+        "helpdesk",
+        "production support",
+        "application support"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "C#",
+      "category": "Languages",
+      "description": "Microsoft object-oriented language used with .NET for web, desktop and games.",
+      "how_to_learn": "Build a small ASP.NET Core API in C#.",
+      "aliases": [
+        "c sharp",
+        "csharp"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": ".NET",
+      "category": "Backend",
+      "description": "Microsoft framework for building web, desktop and cloud applications.",
+      "how_to_learn": "Build and deploy a small ASP.NET Core web app.",
+      "aliases": [
+        "dotnet",
+        "asp.net",
+        "asp.net core",
+        ".net core",
+        ".net framework"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "PHP",
+      "category": "Languages",
+      "description": "Server-side language widely used for websites, including WordPress and Laravel.",
+      "how_to_learn": "Build a small CRUD app with PHP and Laravel.",
+      "aliases": [
+        "laravel"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "Kotlin",
+      "category": "Languages",
+      "description": "Modern JVM language, the standard for Android development.",
+      "how_to_learn": "Build a small Android app or Spring Boot service in Kotlin.",
+      "aliases": [],
+      "satisfied_by": []
+    },
+    {
+      "name": "Swift",
+      "category": "Languages",
+      "description": "Apple language for iOS and macOS apps.",
+      "how_to_learn": "Build a small iOS app with SwiftUI.",
+      "aliases": [
+        "swiftui"
+      ],
+      "satisfied_by": []
+    },
+    {
+      "name": "SQL Server",
+      "category": "Databases",
+      "description": "Microsoft relational database.",
+      "how_to_learn": "Use SQL Server as the database for a .NET project.",
+      "aliases": [
+        "microsoft sql server",
+        "mssql",
+        "t-sql"
+      ],
+      "satisfied_by": []
+    }
+  ]
+}

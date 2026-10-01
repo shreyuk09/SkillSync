@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "updated": "2026-09-25",
+  "description": "SkillSync sample dataset. Edit any file here; the backend reloads it automatically.",
+  "skills_file": "skills.json",
+  "resumes": [
+    {
+      "id": "resume-01",
+      "name": "Arjun Mehra",
+      "headline": "Java Backend Developer",
+      "target_role": "java-developer",
+      "file": "resumes/resume-01.json"
+    },
+    {
+      "id": "resume-02",
+      "name": "Meera Iyer",
+      "headline": "Full Stack Developer (React + Node.js)",
+      "target_role": "full-stack-developer",
+      "file": "resumes/resume-02.json"
+    },
+    {
+      "id": "resume-03",
+      "name": "Kabir Shah",
+      "headline": "Frontend Web Developer",
+      "target_role": "web-developer",
+      "file": "resumes/resume-03.json"
+    },
+    {
+      "id": "resume-04",
+      "name": "Nisha Rao",
+      "headline": "Cloud Engineer (AWS)",
+      "target_role": "cloud-engineer",
+      "file": "resumes/resume-04.json"
+    },
+    {
+      "id": "resume-05",
+      "name": "Rohan Kulkarni",
+      "headline": "DevOps Engineer",
+      "target_role": "devops-engineer",
+      "file": "resumes/resume-05.json"
+    },
+    {
+      "id": "resume-06",
+      "name": "Farah Khan",
+      "headline": "Security Analyst (SOC)",
+      "target_role": "cybersecurity-analyst",
+      "file": "resumes/resume-06.json"
+    },
+    {
+      "id": "resume-07",
+      "name": "Vikram Nair",
+      "headline": "Data Scientist",
+      "target_role": "data-scientist",
+      "file": "resumes/resume-07.json"
+    },
+    {
+      "id": "resume-08",
+      "name": "Ananya Bose",
+      "headline": "UI/UX Designer",
+      "target_role": "ui-ux-designer",
+      "file": "resumes/resume-08.json"
+    },
+    {
+      "id": "resume-09",
+      "name": "Siddharth Menon",
+      "headline": "Software Engineer",
+      "target_role": "full-stack-developer",
+      "file": "resumes/resume-09.json"
+    },
+    {
+      "id": "resume-10",
+      "name": "Aditya Verma",
+      "headline": "Computer Science Graduate",
+      "target_role": "java-developer",
+      "file": "resumes/resume-10.json"
+    }
+  ],
+  "jobs": [
+    {
+      "role": "cloud-engineer",
+      "title": "Cloud Engineer",
+      "file": "jobs/cloud-engineer.json",
+      "postings": [
+        "cloud-engineer-01",
+        "cloud-engineer-02"
+      ]
+    },
+    {
+      "role": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "file": "jobs/cybersecurity-analyst.json",
+      "postings": [
+        "cybersecurity-analyst-01",
+        "cybersecurity-analyst-02"
+      ]
+    },
+    {
+      "role": "data-scientist",
+      "title": "Data Scientist",
+      "file": "jobs/data-scientist.json",
+      "postings": [
+        "data-scientist-01",
+        "data-scientist-02"
+      ]
+    },
+    {
+      "role": "devops-engineer",
+      "title": "DevOps Engineer",
+      "file": "jobs/devops-engineer.json",
+      "postings": [
+        "devops-engineer-01",
+        "devops-engineer-02"
+      ]
+    },
+    {
+      "role": "full-stack-developer",
+      "title": "Full Stack Developer",
+      "file": "jobs/full-stack-developer.json",
+      "postings": [
+        "full-stack-developer-01",
+        "full-stack-developer-02"
+      ]
+    },
+    {
+      "role": "java-developer",
+      "title": "Java Developer",
+      "file": "jobs/java-developer.json",
+      "postings": [
+        "java-developer-01",
+        "java-developer-02",
+        "java-developer-03"
+      ]
+    },
+    {
+      "role": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "file": "jobs/ui-ux-designer.json",
+      "postings": [
+        "ui-ux-designer-01",
+        "ui-ux-designer-02"
+      ]
+    },
+    {
+      "role": "web-developer",
+      "title": "Web Developer",
+      "file": "jobs/web-developer.json",
+      "postings": [
+        "web-developer-01",
+        "web-developer-02"
+      ]
+    }
+  ]
+}

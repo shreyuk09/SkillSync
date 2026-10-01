@@ -1,0 +1,93 @@
+{
+  "id": "resume-05",
+  "name": "Rohan Kulkarni",
+  "headline": "DevOps Engineer",
+  "target_role": "devops-engineer",
+  "location": "Remote (India)",
+  "email": "rohan.kulkarni@example.com",
+  "years_experience": 4,
+  "summary": "DevOps engineer who builds CI/CD pipelines and runs Kubernetes platforms. Focused on reliable, observable deployments.",
+  "education": [
+    {
+      "degree": "B.E. Information Science",
+      "institution": "Malnad College of Engineering",
+      "start": "2015",
+      "end": "2019"
+    }
+  ],
+  "experience": [
+    {
+      "title": "DevOps Engineer",
+      "company": "Quillstack SaaS (fictional)",
+      "location": "Remote",
+      "start": "2020-06",
+      "end": "Present",
+      "bullets": [
+        "Built GitHub Actions and Jenkins pipelines that cut release time from 2 days to 40 minutes.",
+        "Operated 3 Kubernetes clusters (EKS) with Helm-based deployments for 60+ services.",
+        "Introduced Prometheus and Grafana dashboards and on-call alerting; MTTR fell by 35%.",
+        "Wrote incident runbooks and led blameless post-incident reviews."
+      ]
+    },
+    {
+      "title": "Build and Release Engineer",
+      "company": "Orbit Payments (fictional)",
+      "location": "Bengaluru",
+      "start": "2019-07",
+      "end": "2020-05",
+      "bullets": [
+        "Maintained Jenkins jobs and shell scripts for nightly builds."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Homelab GitOps",
+      "tech": [
+        "Kubernetes",
+        "Argo CD",
+        "Helm"
+      ],
+      "description": "Self-hosted cluster managed entirely from a Git repository."
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "CI/CD",
+      "Jenkins",
+      "GitHub Actions",
+      "Terraform",
+      "AWS",
+      "Linux",
+      "Shell Scripting",
+      "Python",
+      "Prometheus",
+      "Grafana",
+      "Monitoring",
+      "Incident Response",
+      "GitOps",
+      "Git"
+    ],
+    "soft": [
+      "Collaboration",
+      "Documentation",
+      "Problem Solving"
+    ]
+  },
+  "certifications": [
+    "Certified Kubernetes Administrator (CKA)"
+  ],
+  "achievements": [],
+  "interests": [
+    "Open source",
+    "Running"
+  ],
+  "source": {
+    "type": "synthetic",
+    "license": "CC0-1.0 (created for SkillSync demo data)",
+    "note": "Fictional candidate. Name, contact details, employers and projects are invented; any resemblance to a real person is coincidental."
+  }
+}

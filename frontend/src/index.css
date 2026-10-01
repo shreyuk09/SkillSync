@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Design tokens
+
+   Light and dark are two *selected* palettes, not one auto-inverted. Every
+   value is defined in both blocks so nothing is left to a filter or an
+   opacity trick.
+
+   The data colours come from a validated palette:
+   - brand blue is the single hue used for all magnitude marks (score ring,
+     component bars). Magnitude across categories takes ONE hue -- the label
+     carries identity, not the colour.
+   - good / warn / critical are reserved status colours. They are never reused
+     as chart series. On the light surface the warning amber sits below 3:1
+     contrast by design, so status is *never* carried by colour alone: every
+     status ships with an icon and a text label.
+   ========================================================================== */
+
+:root {
+  --canvas: 249 249 247;   /* page plane      #f9f9f7 */
+  --surface: 252 252 251;  /* card surface    #fcfcfb */
+  --raised: 240 239 236;   /* hover / inset   #f0efec */
+  --ink: 11 11 11;         /* primary text    #0b0b0b */
+  --muted: 82 81 78;       /* secondary text  #52514e */
+  --subtle: 137 135 129;   /* axis / captions #898781 */
+  --line: 225 224 217;     /* hairline        #e1e0d9 */
+
+  --brand: 42 120 214;      /* #2a78d6 */
+  --brand-soft: 205 226 251;/* #cde2fb */
+
+  --good: 12 163 12;        /* #0ca30c */
+  --warn: 250 178 25;       /* #fab219 */
+  --serious: 236 131 90;    /* #ec835a */
+  --critical: 208 59 59;    /* #d03b3b */
+
+  color-scheme: light;
+}
+
+.dark {
+  --canvas: 13 13 13;      /* #0d0d0d */
+  --surface: 26 26 25;     /* #1a1a19 */
+  --raised: 44 44 42;      /* #2c2c2a */
+  --ink: 255 255 255;
+  --muted: 195 194 183;    /* #c3c2b7 */
+  --subtle: 137 135 129;   /* #898781 */
+  --line: 44 44 42;        /* #2c2c2a */
+
+  --brand: 57 135 229;      /* #3987e5 -- re-stepped for the dark surface */
+  --brand-soft: 24 79 149;  /* #184f95 */
+
+  --good: 12 163 12;
+  --warn: 250 178 25;
+  --serious: 236 131 90;
+  --critical: 208 59 59;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  ::selection {
+    background: rgb(var(--brand) / 0.22);
+  }
+
+  /* A visible, consistent focus ring everywhere -- keyboard users included. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand ring-offset-2 ring-offset-canvas;
+  }
+
+  /* Scrollbars that don't shout */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(var(--subtle) / 0.35);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--subtle) / 0.6);
+    background-clip: content-box;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-line bg-surface shadow-card;
+  }
+
+  .card-pad {
+    @apply p-5 sm:p-6;
+  }
+
+  /* Wide content (tables, chunk text) scrolls inside its own container so the
+     page body never scrolls sideways on a phone. */
+  .scroll-x {
+    @apply overflow-x-auto;
+    scrollbar-width: thin;
+  }
+
+  .prose-answer {
+    @apply text-[15px] leading-relaxed text-ink;
+  }
+  .prose-answer p {
+    @apply mb-3 last:mb-0;
+  }
+  .prose-answer ul {
+    @apply mb-3 ml-5 list-disc space-y-1.5 last:mb-0;
+  }
+  .prose-answer ol {
+    @apply mb-3 ml-5 list-decimal space-y-1.5 last:mb-0;
+  }
+  .prose-answer strong {
+    @apply font-semibold;
+  }
+  .prose-answer code {
+    @apply rounded bg-raised px-1.5 py-0.5 font-mono text-[13px];
+  }
+}
+
+/* Skeleton shimmer for loading states */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(var(--ink) / 0.06),
+    transparent
+  );
+  animation: shimmer 1.6s infinite;
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .shimmer::after {
+    animation: none;
+  }
+}
