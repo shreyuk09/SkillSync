@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { invalidate, uploadJob, uploadJobText } from './api'
-import { Tabs } from './components'
+import { DemoNotice, Tabs } from './components'
+import { STATIC } from '../staticMode'
 import { Icon } from './icons'
 
 const STEPS = ['Reading the job description…', 'Extracting required skills…', 'Comparing your skills…', 'Preparing your match…']
@@ -73,6 +74,12 @@ export default function JdUpload({ open, onClose }) {
           </button>
         </div>
 
+        {STATIC ? (
+          <div className="mt-4">
+            <DemoNotice title="Uploading a job description works in the full app" />
+          </div>
+        ) : (
+        <>
         <div className="mt-4">
           <Tabs
             label="How to add the job description"
@@ -164,6 +171,8 @@ export default function JdUpload({ open, onClose }) {
               {error.hint && <p className="mt-0.5">{error.hint}</p>}
             </div>
           </div>
+        )}
+        </>
         )}
         <p className="mt-4 flex items-start gap-2 text-xs text-ss-mute">
           <Icon name="shield" size={14} className="mt-0.5" />

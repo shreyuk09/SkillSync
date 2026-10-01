@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  // GitHub Pages serves the site from /<repo>/; local development stays at /.
+  base: process.env.VITE_BASE || '/',
   server: {
     port: 5173,
     // The frontend calls /api/* and Vite forwards it to FastAPI. This keeps

@@ -14,6 +14,11 @@ cannot make things up about you or the job**: every number is calculated in
 code, and the AI only writes answers from retrieved passages of your resume and
 the job description, which it must cite.
 
+**Live demo:** https://shreyuk09.github.io/SkillSync/ — runs entirely in the
+browser with the 10 sample resumes. Uploading your own files and the AI
+assistant need the Python backend, so they work when you
+[run it locally](#quick-start).
+
 ---
 
 ## Contents
@@ -321,6 +326,27 @@ in Skill Analysis and the assistant, and can be removed from their job page.
 - Frontend: every page is a separate lazily loaded chunk; API results are
   cached in memory; hovering a menu item prefetches its page and data; skeleton
   loaders show while data arrives; search is debounced.
+
+---
+
+## Online demo (GitHub Pages)
+
+GitHub Pages only serves static files, so it cannot run the Python backend.
+`.github/workflows/deploy-pages.yml` therefore builds a **static demo** on
+every push to `main`:
+
+1. builds the frontend with `VITE_STATIC=1` and the repo name as the base path;
+2. runs `backend/scripts/export_static.py`, which pre-computes every result for
+   the 10 sample resumes (matches, analysis, gaps, improvements, job details)
+   as JSON — uploaded files on your machine are never included;
+3. publishes it to `https://<user>.github.io/<repo>/`.
+
+In the demo, upload and AI-assistant screens explain that those features need
+the full app. Local development is unaffected: without `VITE_STATIC` the app
+talks to the backend as usual.
+
+One-time setup: **Settings → Pages → Build and deployment → Source: GitHub
+Actions**.
 
 ---
 

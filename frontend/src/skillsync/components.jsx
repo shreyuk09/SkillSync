@@ -1,6 +1,7 @@
 import { memo, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Icon, ROLE_ICON } from './icons'
+import { REPO_URL, STATIC_NOTICE } from '../staticMode'
 
 /* ---------------------------------------------------------------------------
    Meaning colours: green = matched/strong, amber = improve, red = missing,
@@ -717,6 +718,22 @@ export function NoResume() {
         </>
       }
     />
+  )
+}
+
+/** Shown in the online (GitHub Pages) demo where a feature needs the server. */
+export function DemoNotice({ title = 'Available in the full app' }) {
+  return (
+    <div className="flex flex-col items-center rounded-2xl border-2 border-dashed border-ss-b-ink/30 bg-ss-b-bg/40 px-6 py-10 text-center">
+      <span className="grid h-14 w-14 place-items-center rounded-full bg-ss-card text-ss-b-ink">
+        <Icon name="info" size={24} />
+      </span>
+      <p className="mt-4 font-semibold text-ss-ink">{title}</p>
+      <p className="mt-1 max-w-md text-sm text-ss-sub">{STATIC_NOTICE}</p>
+      <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="ss-btn mt-5">
+        View on GitHub <Icon name="external" size={15} />
+      </a>
+    </div>
   )
 }
 

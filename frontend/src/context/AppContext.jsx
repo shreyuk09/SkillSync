@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import * as api from '../services/api'
+import { STATIC } from '../staticMode'
 
 const AppContext = createContext(null)
 const SESSION_KEY = 'resumerag.session'
@@ -106,6 +107,10 @@ export function AppProvider({ children }) {
 
   // -- boot ----------------------------------------------------------------
   useEffect(() => {
+    if (STATIC) {
+      setBooting(false)
+      return undefined
+    }
     let cancelled = false
     ;(async () => {
       try {

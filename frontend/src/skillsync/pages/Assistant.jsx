@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { chat, paths } from '../api'
-import { ChatInput, ChatMessage, NoResume, PageHeader } from '../components'
+import { ChatInput, ChatMessage, DemoNotice, NoResume, PageHeader } from '../components'
+import { STATIC } from '../../staticMode'
 import { Icon } from '../icons'
 import { useSkillSync } from '../store'
 import { useQuery } from '../useQuery'
@@ -67,6 +68,23 @@ export default function Assistant() {
   }, [messages.length, pending])
 
   if (!resumeId) return <NoResume />
+  if (STATIC)
+    return (
+      <>
+        <PageHeader title="AI Career Assistant" subtitle="Ask questions about your resume, skills, and matched opportunities." />
+        <div className="ss-card p-6">
+          <DemoNotice title="The AI Career Assistant runs in the full app" />
+          <p className="mt-6 text-sm font-semibold text-ss-sub">Questions it answers, with sources from your resume and job descriptions</p>
+          <ul className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {SUGGESTED.map((q) => (
+              <li key={q} className="rounded-xl border border-ss-line bg-ss-soft/50 px-4 py-3 text-sm font-medium text-ss-ink">
+                {q}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </>
+    )
 
   return (
     <div className="flex min-h-[calc(100vh-150px)] flex-col">

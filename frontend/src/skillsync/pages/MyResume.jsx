@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { invalidate, paths, prefetch, uploadResume } from '../api'
-import { Avatar, Card, CardHeader, ErrorState, LoadingSkeleton, PageHeader, ResumeSummary, RoleIcon, SkillBadge, Tabs } from '../components'
+import { Avatar, Card, CardHeader, DemoNotice, ErrorState, LoadingSkeleton, PageHeader, ResumeSummary, RoleIcon, SkillBadge, Tabs } from '../components'
 import { Icon } from '../icons'
+import { STATIC } from '../../staticMode'
 import { useSkillSync } from '../store'
 import { useQuery } from '../useQuery'
 
@@ -67,6 +68,16 @@ export function SampleGrid({ onPicked }) {
 }
 
 function Uploader() {
+  if (STATIC)
+    return (
+      <Card className="p-5 sm:p-6">
+        <DemoNotice title="Uploading works in the full app" />
+      </Card>
+    )
+  return <LiveUploader />
+}
+
+function LiveUploader() {
   const { setResumeId } = useSkillSync()
   const navigate = useNavigate()
   const [busy, setBusy] = useState(false)

@@ -6,6 +6,7 @@ import { Card, CardHeader, PageHeader } from '../components'
 import { Icon } from '../icons'
 import { useSkillSync } from '../store'
 import { useQuery } from '../useQuery'
+import { STATIC } from '../../staticMode'
 
 function Row({ title, detail, children }) {
   return (
@@ -26,6 +27,7 @@ export default function Settings() {
   const { data: jobs } = useQuery(paths.jobs())
   const [rag, setRag] = useState(null)
   useEffect(() => {
+    if (STATIC) return
     fetch('/api/rag/status')
       .then((r) => r.json())
       .then(setRag)
@@ -93,7 +95,7 @@ export default function Settings() {
             </p>
             <p className="flex items-center gap-2">
               <span className={`h-2 w-2 rounded-full ${rag?.ready ? 'bg-ss-green' : 'bg-ss-a-ink'}`} />
-              Knowledge index: {rag == null ? 'checking…' : rag.ready ? 'ready' : 'warming up'}
+              Knowledge index: {STATIC ? 'not used in the online demo' : rag == null ? 'checking…' : rag.ready ? 'ready' : 'warming up'}
             </p>
             <p>
               <Link to="/how-it-works" className="font-semibold text-ss-green hover:underline">

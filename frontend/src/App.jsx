@@ -5,6 +5,7 @@ import { ToastStack } from './components/ui'
 
 import Landing from './pages/Landing'
 import { loaders } from './skillsync/routes'
+import { STATIC } from './staticMode'
 
 // Everything except the landing page is split into its own chunk, so the
 // homepage paints without downloading the dashboard.
@@ -52,6 +53,12 @@ export default function App() {
             <Route path="*" element={<Navigate to="/app" replace />} />
           </Route>
 
+          {STATIC ? (
+            // The classic analyzer needs the server; the online demo sends its URLs to the dashboard.
+            ['/upload', '/dashboard', '/resume', '/job', '/match', '/assistant', '/improvements', '/interview', '/roadmap'].map((p) => (
+              <Route key={p} path={p} element={<Navigate to="/app" replace />} />
+            ))
+          ) : (
           <Route element={<AppLayout />}>
             <Route path="/upload" element={<Upload />} />
             <Route path="/dashboard" element={<LegacyDashboard />} />
@@ -63,6 +70,7 @@ export default function App() {
             <Route path="/interview" element={<InterviewPrep />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Route>
+          )}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
