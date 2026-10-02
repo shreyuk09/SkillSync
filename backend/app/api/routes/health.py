@@ -16,7 +16,7 @@ from app.schemas.common import HealthResponse, RagStatus
 
 router = APIRouter(tags=["system"])
 
-PROVIDER_LABEL = {"anthropic": "Anthropic Claude", "groq": "Groq"}
+PROVIDER_LABEL = {"groq": "Groq", "anthropic": "Anthropic"}
 
 
 @router.get("/health", response_model=HealthResponse)

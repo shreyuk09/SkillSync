@@ -1,7 +1,7 @@
 """Explanation layer for project relevance.
 
 The ranking itself is computed with embeddings in `project_ranker`. This
-service asks Claude to explain a ranking it did not choose, grounded in the
+service asks the LLM to explain a ranking it did not choose, grounded in the
 retrieved project and requirement chunks.
 """
 

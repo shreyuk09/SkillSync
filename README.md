@@ -56,7 +56,7 @@ chmod +x start.sh backend/run.sh
 
 The first run creates the Python virtualenv, installs both dependency sets and
 copies `backend/.env.example` → `backend/.env`. **Add your key to
-`backend/.env`** (`GROQ_API_KEY=gsk_…` or `ANTHROPIC_API_KEY=sk-ant-…`) and run
+`backend/.env`** (`GROQ_API_KEY=gsk_…`) and run
 `./start.sh` again.
 
 | What | URL |
@@ -381,7 +381,7 @@ All backend-only, in `backend/.env`. Nothing secret ever reaches the browser.
 
 | Variable | Default | What it does |
 |---|---|---|
-| `LLM_PROVIDER` | `auto` | `auto` \| `anthropic` \| `groq`; `auto` uses whichever key is present |
+| `LLM_PROVIDER` | `auto` | `auto` \| `groq` \| `anthropic`; `auto` uses whichever key is present |
 | `GROQ_API_KEY` | — | Groq key (`gsk_…`), free tier |
 | `GROQ_MODEL` | `openai/gpt-oss-120b` | Groq model |
 | `GROQ_TPM_BUDGET` | `8000` | Your Groq tokens-per-minute limit; raise it if you upgrade |
@@ -501,5 +501,5 @@ Sessions expire after `SESSION_TTL_HOURS`.
 
 Built with [FastAPI](https://fastapi.tiangolo.com/), [React](https://react.dev/),
 [Vite](https://vite.dev/), [Tailwind CSS](https://tailwindcss.com/),
-[sentence-transformers](https://www.sbert.net/), and Claude or Groq for
+[sentence-transformers](https://www.sbert.net/), and Groq for
 generation.

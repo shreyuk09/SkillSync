@@ -4,8 +4,8 @@ import { useApp } from '../context/AppContext'
 /**
  * Fetch one analysis endpoint, with loading / error / refresh handled once.
  *
- * Analysis calls can take several seconds (they run retrieval and then a
- * Claude call), so every page that uses this gets a proper loading state
+ * Analysis calls can take several seconds (they run retrieval and then an
+ * LLM call), so every page that uses this gets a proper loading state
  * rather than a frozen screen.
  *
  * Identical in-flight requests are shared rather than duplicated. Two things

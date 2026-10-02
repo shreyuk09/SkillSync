@@ -2,7 +2,7 @@
 
 These are declared as plain `def` (not `async def`) on purpose: FastAPI runs
 sync handlers in a worker thread, which is exactly right for code that blocks
-on the Anthropic API and on local embedding computation.
+on the LLM API and on local embedding computation.
 
 Results are cached per session, so navigating between pages doesn't re-bill an
 LLM call. `?refresh=true` forces a recompute.

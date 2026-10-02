@@ -95,8 +95,8 @@ class LLMError(AppError):
 class LLMNotConfigured(AppError):
     code = "llm_not_configured"
     status_code = 503
-    message = "No Anthropic API key is configured on the server."
-    hint = "Add ANTHROPIC_API_KEY to backend/.env and restart the backend."
+    message = "No LLM API key is configured on the server."
+    hint = "Add GROQ_API_KEY to backend/.env and restart the backend."
 
 
 # --------------------------------------------------------------------------

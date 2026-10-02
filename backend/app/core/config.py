@@ -42,8 +42,8 @@ class Settings(BaseSettings):
     debug: bool = False
 
     # -- LLM ---------------------------------------------------------------
-    # `auto` picks whichever provider has a usable key (Anthropic first).
-    llm_provider: str = "auto"  # auto | anthropic | groq
+    # `auto` picks whichever provider has a usable key (Groq first).
+    llm_provider: str = "auto"  # auto | groq | anthropic
 
     anthropic_api_key: Optional[str] = None
     llm_model: str = "claude-opus-5"

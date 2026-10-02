@@ -7,7 +7,7 @@ RAG in the whole project:
       -> embed the question
       -> search the vector store (resume quota + JD quota)
       -> build a CONTEXT block with [S1], [S2] labels
-      -> Claude answers using only that context
+      -> the LLM answers using only that context
       -> map the [S#] labels back to real chunks
       -> return answer + clickable sources
 

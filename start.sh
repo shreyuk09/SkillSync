@@ -36,7 +36,7 @@ fi
 if [ ! -f ".env" ]; then
   cp .env.example .env
   echo "!! Created backend/.env from the example."
-  echo "!! Add your ANTHROPIC_API_KEY to it, then restart."
+  echo "!! Add your GROQ_API_KEY to it, then restart."
 fi
 
 echo "==> Starting the API on http://localhost:8000"

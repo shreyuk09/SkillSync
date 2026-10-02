@@ -1,7 +1,7 @@
 /**
  * The single place the frontend talks to the backend.
  *
- * There is no API key here and there never should be -- every call to Claude
+ * There is no API key here and there never should be -- every LLM call
  * and every embedding computation happens on the server. The browser only ever
  * sees results.
  */

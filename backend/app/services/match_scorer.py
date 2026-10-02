@@ -476,7 +476,7 @@ def _explain(
     settings: Settings,
     jd_profile: Dict[str, Any],
 ) -> Dict[str, Any]:
-    """Ask Claude to explain the already-computed report, grounded in chunks."""
+    """Ask the LLM to explain the already-computed report, grounded in chunks."""
     retriever = get_retriever(settings)
     llm = get_llm(settings)
 

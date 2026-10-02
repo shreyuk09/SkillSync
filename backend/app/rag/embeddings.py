@@ -17,7 +17,7 @@ Two providers are shipped behind one interface:
   morphology but NOT true synonymy. The API reports which one is active so
   the UI can be honest about it.
 
-Anthropic does not provide an embeddings endpoint -- Claude is used for the
+Embeddings are computed locally -- the hosted LLM is used for the
 *generation* step only. That separation is normal in RAG: a small, cheap model
 does retrieval; a large model does reasoning.
 """

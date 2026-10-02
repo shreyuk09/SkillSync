@@ -15,7 +15,7 @@ if [ ! -d ".venv" ]; then
 fi
 
 if [ ! -f ".env" ]; then
-  echo "!! backend/.env not found. Copying .env.example -- add your ANTHROPIC_API_KEY to it."
+  echo "!! backend/.env not found. Copying .env.example -- add your GROQ_API_KEY to it."
   cp .env.example .env
 fi
 

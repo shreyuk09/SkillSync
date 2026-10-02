@@ -13,8 +13,8 @@ Keeping it in one place means:
 **Two providers, one interface.** The same pluggable pattern the embedder and
 the vector store already use:
 
-    AnthropicLLM  -- Claude. Best output quality; needs paid credits.
     GroqLLM       -- open models on Groq's fast inference. Generous free tier.
+    AnthropicLLM  -- optional paid alternative.
 
 Everything above this module (`generation.py`, every service) calls
 `complete()` / `complete_json()` and never knows which one is running.
@@ -236,11 +236,11 @@ class BaseLLM:
 
 
 # --------------------------------------------------------------------------
-# Provider 1: Anthropic (Claude)
+# Provider 2: Anthropic (optional, paid)
 # --------------------------------------------------------------------------
 class AnthropicLLM(BaseLLM):
     provider = "anthropic"
-    display_name = "Anthropic Claude"
+    display_name = "Anthropic"
 
     def __init__(self, settings: Settings) -> None:
         super().__init__(settings)
@@ -415,7 +415,7 @@ class AnthropicLLM(BaseLLM):
 
 
 # --------------------------------------------------------------------------
-# Provider 2: Groq (open models, OpenAI-compatible surface)
+# Provider 1: Groq (default; open models, OpenAI-compatible surface)
 # --------------------------------------------------------------------------
 class GroqLLM(BaseLLM):
     """Groq's OpenAI-compatible chat completions API.
@@ -679,8 +679,8 @@ def detect_provider(settings: Settings) -> Optional[str]:
     if configured in PROVIDERS:
         return configured if _resolve_key(settings, configured) else None
 
-    # auto: prefer whichever key is present, Anthropic first for quality.
-    for provider in ("anthropic", "groq"):
+    # auto: prefer whichever key is present, Groq first.
+    for provider in ("groq", "anthropic"):
         if _resolve_key(settings, provider):
             return provider
     return None

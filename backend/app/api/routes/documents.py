@@ -192,7 +192,7 @@ async def semantic_search(
 
     This endpoint exists so the retrieval step can be demonstrated in
     isolation: type a query, see the exact chunks and similarity scores that
-    would be handed to Claude.
+    would be handed to the LLM.
     """
     retriever = get_retriever(settings)
     results = await run_in_threadpool(

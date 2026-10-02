@@ -9,6 +9,6 @@
     ingest.py        orchestrates everything above
     retriever.py     question          ->  most relevant chunks
     prompts.py       chunks + question ->  a grounded prompt
-    llm.py           prompt            ->  Claude
+    llm.py           prompt            ->  the LLM
     generation.py    answer            ->  text + citations back to the chunks
 """
